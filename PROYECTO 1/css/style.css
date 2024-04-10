@@ -10,7 +10,7 @@ header{
     align-items: center;
     justify-content: space-between;
     padding: 2rem;
-    background-color: #ececec;
+    background: linear-gradient(to right, red, white); /* Degrade rojo */
 }
 .logo-header{
     max-width: 5rem;
@@ -70,21 +70,27 @@ header{
         color: #ececec;
     }
 }
+
+/* Banner */
+.banner {
+    background-color: white;
+    text-align: center;
+    padding: 4rem 2rem;
+}
+
 /* Footer */
 footer {
-    background-color: #393939;
+    background: linear-gradient(to right, #333333, #000000); /* Degrade plomo/negro */
     color: #aaaaaa;
     width: 100%;
     padding: 1rem 0;
     box-sizing: border-box;
-    /* position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0; */
 }
+
 footer p{
     text-align: justify;
 }
+
 footer h3{
     color: #ffffff;
 }

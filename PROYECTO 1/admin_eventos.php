@@ -12,10 +12,17 @@
         }
         .container {
             margin-top: 50px;
+            background: linear-gradient(to bottom, #FF0000, #FFFFFF);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
         }
         .btn-danger {
             background-color: #FF0000;
             border-color: #FF0000;
+        }
+        a.btn-home {
+            margin-top: 20px;
         }
     </style>
 </head>
@@ -23,6 +30,9 @@
 
 <div class="container">
     <h2>Administrar Eventos</h2>
+    <!-- Botón para volver al home -->
+    <a href="home.php" class="btn btn-primary btn-home">Volver al Home</a>
+    
     <!-- Botón para mostrar formulario de agregar evento -->
     <button id="btnAgregar" class="btn btn-success mb-3">Agregar Evento</button>
 

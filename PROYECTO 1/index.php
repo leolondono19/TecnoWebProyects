@@ -10,6 +10,12 @@
     <header>
         <?php include 'header.php'; ?>
     </header>
+    <main>
+        <!-- Banner al centro -->
+        <div class="banner">
+            <h1>Bienvenido a MY PICTURE</h1>
+        </div>
+    </main>
     <footer>
         <?php include 'footer.php'; ?>
     </footer>

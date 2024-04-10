@@ -26,7 +26,7 @@ try {
     } else {
         echo json_encode(array("status" => "error"));
     }
-    s
+    
 } catch(PDOException $e) {
     echo "Error: " . $e->getMessage();
 }

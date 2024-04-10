@@ -8,6 +8,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $password = $_POST['password'];
 
         $user = find_user($username, $password);
+        
         if ($user) {
             $_SESSION['username'] = $username;
             header('Location: ../indexx.php');
@@ -20,7 +21,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $role = $_POST['role'];
             register_user($username, $password, $role);
             $_SESSION['username'] = $username;
-            header('Location: ../index.php');
+            header('Location: ../indexx.php');
             exit;
         }
     }
@@ -28,7 +29,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 if (isset($_GET['logout'])) {
     session_destroy();
-    header('Location: ../index.php');
+    header('Location: ../indexx.php');
     exit;
 }
 ?>
