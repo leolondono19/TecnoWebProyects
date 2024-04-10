@@ -7,8 +7,11 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<footer>
-    <?php include 'footer.php'; ?>
-</footer>
+    <header>
+        <?php include 'header.php'; ?>
+    </header>
+    <footer>
+        <?php include 'footer.php'; ?>
+    </footer>
 </body>
 </html>
