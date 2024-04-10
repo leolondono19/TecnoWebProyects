@@ -1,7 +1,7 @@
 </div>
 <div class = "cont-header">
     <header>
-        <img src="#" alt="Logo">
+        <img src="img/logo.png" alt="Logo">
         <button class = "abrir-menu" id = "abrir"><i class="bi bi-list"></i></button>
         <nav class = "nav" id = "nav">
             <button class = "cerrar-menu" id = "cerrar"><i class="bi bi-x-lg"></i></button>
