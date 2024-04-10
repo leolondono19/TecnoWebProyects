@@ -96,9 +96,9 @@
                 contentType: false,
                 processData: false,
                 success: function(response) {
-                    if (response === 'success') {
+                    if (JSON.parse(response).status === 'success') {
                         alert('Evento agregado correctamente');
-                        location.reload();
+                        cargarEventos();
                     } else {
                         alert('Error al agregar evento');
                     }
