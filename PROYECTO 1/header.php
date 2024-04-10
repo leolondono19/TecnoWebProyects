@@ -10,7 +10,7 @@
                 <li><a href="#">Eventos</a></li>
                 <li><a href="#">Galería</a></li>
                 <li><a href="#">Pedidos</a></li>
-                <li><a href="#">Contactos</a></li>
+                <li><a href="admin_eventos.php">Contactos</a></li>
             </ul>
         </nav>
     </header>
