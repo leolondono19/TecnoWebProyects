@@ -1,4 +1,23 @@
-<?php include('sessions/indexx.php'); ?>
+<?php
+include('db.php');
+
+$message = '';
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $username = $_POST['username'];
+    $password = $_POST['password'];
+    $role = $_POST['role'];
+
+    if (register_user($username, $password, $role)) {
+        // Registro exitoso
+        $message = "Registro exitoso. <a href='login.php'>Iniciar sesión</a>";
+    } else {
+        // Error en el registro
+        $message = "Error al registrar el usuario.";
+    }
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,7 +28,8 @@
 </head>
 <body>
     <h2>Register</h2>
-    <form action="sessions/indexx.php" method="post">
+    <?php echo $message; ?>
+    <form action="register.php" method="post">
         <label for="username">Username:</label><br>
         <input type="text" id="username" name="username" required><br>
         <label for="password">Password:</label><br>

@@ -1,4 +1,14 @@
-</div>
+<?php session_start(); ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Picture</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
 <div class="cont-header">
     <header>
         <img src="img/logo.png" alt="Logo">
@@ -11,12 +21,16 @@
                 <li><a href="#">Galería</a></li>
                 <li><a href="#">Pedidos</a></li>
                 <li><a href="admin_eventos.php">Contactos</a></li>
-                <li><a href="login.php">Iniciar Sesión</a></li> 
+                <?php if(isset($_SESSION['username'])): ?>
+                    <li><a href="logout.php">Logout</a></li>
+                <?php else: ?>
+                    <li><a href="login.php">Iniciar Sesión</a></li>
+                    <li><a href="register.php">Registrar</a></li> 
+                <?php endif; ?>
             </ul>
         </nav>
     </header>
 </div>
 
 </body>
-
 </html>
