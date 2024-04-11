@@ -1,5 +1,5 @@
 <?php
-session_save_path(__DIR__ . '/session_data/');
+session_save_path(str_replace('\\', '/', __DIR__) .'/session_data/');
 session_start();
 
 $host = 'localhost';

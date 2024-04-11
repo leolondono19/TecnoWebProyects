@@ -31,7 +31,7 @@
 <div class="container">
     <h2>Administrar Eventos</h2>
     <!-- Botón para volver al home -->
-    <a href="home.php" class="btn btn-primary btn-home">Volver al Home</a>
+    <a href="index.php" class="btn btn-primary btn-home">Volver al Home</a>
     
     <!-- Botón para mostrar formulario de agregar evento -->
     <button id="btnAgregar" class="btn btn-success mb-3">Agregar Evento</button>
