@@ -16,7 +16,7 @@
         <nav class="nav" id="nav">
             <button class="cerrar-menu" id="cerrar"><i class="bi bi-x-lg"></i></button>
             <ul class="nav-list">
-                <li><a href="#">Home</a></li>
+                <li><a href="index.php">Home</a></li>
                 <li><a href="eventos.php">Eventos</a></li>
                 <li><a href="galeria.php">Galería</a></li>
                 <li><a href="pedidos.php">Pedidos</a></li>
