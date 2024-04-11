@@ -1,5 +1,9 @@
 <?php
-include('db.php');
+$host = 'localhost';
+$port = '5555';
+$dbname = 'MyPicture';
+$user = 'postgres';
+$password = 'admin';
 
 $message = '';
 
@@ -7,16 +11,19 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $username = $_POST['username'];
     $password = $_POST['password'];
 
-    $user = find_user($username, $password);
+    $conn = new PDO("pgsql:host=$host;port=$port;dbname=$dbname;user=$user;password=$password");
 
-    if ($user) {
-        // Iniciar sesión
+    $sql = "SELECT * FROM users WHERE username = :username";
+    $stmt = $conn->prepare($sql);
+    $stmt->execute(['username' => $username]);
+    $user = $stmt->fetch();
+
+    if ($user && password_verify($password, $user['password'])) {
         session_start();
         $_SESSION['username'] = $username;
         $_SESSION['role'] = $user['role'];
-        
-        // Redirigir al usuario según su rol
-        if ($_SESSION['role'] == 'admin') {
+
+        if ($user['role'] == 'admin') {
             header('Location: admin_eventos.php');
             exit;
         } else {
@@ -24,7 +31,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             exit;
         }
     } else {
-        // Error en el login
         $message = "Usuario o contraseña incorrectos.";
     }
 }
