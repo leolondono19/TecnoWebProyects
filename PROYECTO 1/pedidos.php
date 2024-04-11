@@ -58,10 +58,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         body {
             font-family: Arial, sans-serif;
             background-color: #f4f4f4;
+        }
+
+        .container {
             display: flex;
-            justify-content: center;
+            flex-direction: column;
             align-items: center;
-            height: 100vh;
+            justify-content: center;
+            min-height: 100vh;
         }
 
         main {
@@ -144,40 +148,42 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <?php include 'header.php'; ?>
     </header>
     
-    <main>
-        <h1>Realizar Pedido</h1>
-        <form action="pedidos.php" method="POST">
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre" required>
+    <div class="container">
+        <main>
+            <h1>Realizar Pedido</h1>
+            <form action="pedidos.php" method="POST">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
 
-            <label for="correo">Correo electrónico:</label>
-            <input type="email" id="correo" name="correo" required>
+                <label for="correo">Correo electrónico:</label>
+                <input type="email" id="correo" name="correo" required>
 
-            <label for="direccion">Dirección de entrega:</label>
-            <textarea id="direccion" name="direccion" rows="4" required></textarea>
+                <label for="direccion">Dirección de entrega:</label>
+                <textarea id="direccion" name="direccion" rows="4" required></textarea>
 
-            <label for="producto">Tipo de Servicio:</label>
-            <select id="producto" name="producto" required>
-                <option value="eventos">Eventos</option>
-                <option value="sesiones">Sesiones de Fotografías</option>
-            </select>
+                <label for="producto">Tipo de Servicio:</label>
+                <select id="producto" name="producto" required>
+                    <option value="eventos">Eventos</option>
+                    <option value="sesiones">Sesiones de Fotografías</option>
+                </select>
 
-            <label for="cantidad">Cantidad:</label>
-            <input type="number" id="cantidad" name="cantidad" min="1" required>
+                <label for="cantidad">Cantidad:</label>
+                <input type="number" id="cantidad" name="cantidad" min="1" required>
 
-            <input type="submit" value="Realizar Pedido">
-        </form>
-        <div class="message"><?php echo $message; ?></div>
+                <input type="submit" value="Realizar Pedido">
+            </form>
+            <div class="message"><?php echo $message; ?></div>
 
-        <?php if (!empty($eventos)): ?>
-            <h2>Eventos Disponibles</h2>
-            <ul>
-                <?php foreach ($eventos as $evento): ?>
-                    <li><?php echo $evento; ?></li>
-                <?php endforeach; ?>
-            </ul>
-        <?php endif; ?>
-    </main>
+            <?php if (!empty($eventos)): ?>
+                <h2>Eventos Disponibles</h2>
+                <ul>
+                    <?php foreach ($eventos as $evento): ?>
+                        <li><?php echo $evento; ?></li>
+                    <?php endforeach; ?>
+                </ul>
+            <?php endif; ?>
+        </main>
+    </div>
 
     <footer>
         <?php include 'footer.php'; ?>

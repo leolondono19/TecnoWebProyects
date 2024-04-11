@@ -17,10 +17,10 @@
             <button class="cerrar-menu" id="cerrar"><i class="bi bi-x-lg"></i></button>
             <ul class="nav-list">
                 <li><a href="#">Home</a></li>
-                <li><a href="#">Eventos</a></li>
-                <li><a href="#">Galería</a></li>
-                <li><a href="#">Pedidos</a></li>
-                <li><a href="admin_eventos.php">Contactos</a></li>
+                <li><a href="eventos.php">Eventos</a></li>
+                <li><a href="galeria.php">Galería</a></li>
+                <li><a href="pedidos.php">Pedidos</a></li>
+                <li><a href="contactos.php">Contactos</a></li>
                 <?php if(isset($_SESSION['username'])): ?>
                     <li><a href="logout.php">Logout</a></li>
                 <?php else: ?>

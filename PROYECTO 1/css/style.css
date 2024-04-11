@@ -11,7 +11,7 @@ header {
     flex-direction: column; /* Cambio de dirección del flexbox */
     align-items: center;
     padding: 2rem;
-    background: linear-gradient(to right, red, white); /* Degrade rojo */
+    background: linear-gradient(to bottom, red, white); /* Degrade de arriba a abajo */
 }
 
 .logo-header {
