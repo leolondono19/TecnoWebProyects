@@ -5,34 +5,39 @@ $dbname = 'MyPicture';
 $user = 'postgres';
 $password = 'admin';
 
-$message = '';
-
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $username = $_POST['username'];
-    $password = $_POST['password'];
-
+try {
     $conn = new PDO("pgsql:host=$host;port=$port;dbname=$dbname;user=$user;password=$password");
+    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-    $sql = "SELECT * FROM users WHERE username = :username";
-    $stmt = $conn->prepare($sql);
-    $stmt->execute(['username' => $username]);
-    $user = $stmt->fetch();
+    $message = '';
 
-    if ($user && password_verify($password, $user['password'])) {
-        session_start();
-        $_SESSION['username'] = $username;
-        $_SESSION['role'] = $user['role'];
+    if ($_SERVER["REQUEST_METHOD"] == "POST") {
+        $username = $_POST['username'];
+        $password_input = $_POST['password'];
 
-        if ($user['role'] == 'admin') {
-            header('Location: admin_eventos.php');
-            exit;
+        $sql = "SELECT * FROM users WHERE username = :username";
+        $stmt = $conn->prepare($sql);
+        $stmt->execute(['username' => $username]);
+        $user = $stmt->fetch();
+
+        if ($user && password_verify($password_input, $user['password'])) {
+            session_start();
+            $_SESSION['username'] = $username;
+            $_SESSION['role'] = $user['role'];
+
+            if ($user['role'] == 'admin') {
+                header('Location: admin_eventos.php');
+                exit;
+            } else {
+                header('Location: pedidos.php');
+                exit;
+            }
         } else {
-            header('Location: pedidos.php');
-            exit;
+            $message = "Usuario o contraseña incorrectos.";
         }
-    } else {
-        $message = "Usuario o contraseña incorrectos.";
     }
+} catch (PDOException $e) {
+    die("ERROR: No se pudo conectar o autenticar el usuario. " . $e->getMessage());
 }
 ?>
 
@@ -47,54 +52,66 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         body {
             font-family: Arial, sans-serif;
             background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
         }
+
         .container {
-            max-width: 400px;
-            margin: 50px auto;
-            padding: 20px;
             background-color: #fff;
-            border-radius: 8px;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 400px;
         }
-        .container h2 {
+
+        h2 {
             text-align: center;
             margin-bottom: 20px;
         }
-        .container .message {
-            text-align: center;
-            color: red;
-            margin-bottom: 20px;
+
+        form {
+            display: flex;
+            flex-direction: column;
         }
-        .container label {
-            display: block;
+
+        label {
             margin-bottom: 8px;
         }
-        .container input[type="text"],
-        .container input[type="password"] {
-            width: 100%;
+
+        input[type="text"],
+        input[type="password"] {
             padding: 10px;
             margin-bottom: 20px;
-            border-radius: 4px;
+            border-radius: 5px;
             border: 1px solid #ccc;
         }
-        .container input[type="submit"] {
-            width: 100%;
-            padding: 10px;
+
+        input[type="submit"] {
             background-color: #007BFF;
             color: #fff;
+            padding: 10px;
             border: none;
-            border-radius: 4px;
+            border-radius: 5px;
             cursor: pointer;
+            transition: background-color 0.3s;
         }
-        .container input[type="submit"]:hover {
+
+        input[type="submit"]:hover {
             background-color: #0056b3;
+        }
+
+        .message {
+            text-align: center;
+            margin-top: 20px;
         }
     </style>
 </head>
 <body>
     <div class="container">
         <h2>Login</h2>
-        <p class="message"><?php echo $message; ?></p>
+        <?php echo $message; ?>
         <form action="login.php" method="post" id="loginForm">
             <label for="username">Username:</label>
             <input type="text" id="username" name="username" required>
@@ -107,13 +124,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     </div>
 
     <script>
-        // Validación del formulario
-        document.getElementById('loginForm').addEventListener('submit', function(event) {
-            const username = document.getElementById('username').value;
-            const password = document.getElementById('password').value;
-
-            if (username.trim() === '' || password.trim() === '') {
-                alert('Por favor, complete todos los campos.');
+        document.getElementById("loginForm").addEventListener("submit", function(event) {
+            const password = document.getElementById("password").value;
+            if (password.length < 8) {
+                alert("La contraseña debe tener al menos 8 caracteres.");
                 event.preventDefault();
             }
         });
