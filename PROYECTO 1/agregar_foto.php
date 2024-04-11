@@ -16,7 +16,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         
         // Subir imagen y obtener su ruta
         $imagen = $_FILES['imagen']['name'];
-        $ruta = "uploads/" . basename($imagen);
+        $ruta = "C:\xampp\htdocs\PROYECTO 1 GRUPAL" . basename($imagen);
         move_uploaded_file($_FILES['imagen']['tmp_name'], $ruta);
 
         $sql = "INSERT INTO fotos (titulo, imagen) VALUES (:titulo, :imagen)";
