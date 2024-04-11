@@ -17,16 +17,20 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // Subir imagen y obtener su ruta
         $imagen = $_FILES['imagen']['name'];
         $ruta = "uploads/" . basename($imagen);
-        move_uploaded_file($_FILES['imagen']['tmp_name'], $ruta);
 
-        $sql = "INSERT INTO fotos (titulo, imagen) VALUES (:titulo, :imagen)";
-        $stmt = $conn->prepare($sql);
+        if (move_uploaded_file($_FILES['imagen']['tmp_name'], $ruta)) {
+            $sql = "INSERT INTO fotos (titulo, imagen) VALUES (:titulo, :imagen)";
+            $stmt = $conn->prepare($sql);
 
-        if ($stmt->execute(['titulo' => $titulo, 'imagen' => $ruta])) {
-            $message = "Foto agregada correctamente.";
-            echo json_encode(['status' => 'success', 'message' => $message]);
+            if ($stmt->execute(['titulo' => $titulo, 'imagen' => $ruta])) {
+                $message = "Foto agregada correctamente.";
+                echo json_encode(['status' => 'success', 'message' => $message]);
+            } else {
+                $message = "Error al agregar foto a la base de datos.";
+                echo json_encode(['status' => 'error', 'message' => $message]);
+            }
         } else {
-            $message = "Error al agregar foto.";
+            $message = "Error al subir la foto.";
             echo json_encode(['status' => 'error', 'message' => $message]);
         }
     } catch (PDOException $e) {
@@ -136,12 +140,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 contentType: false,
                 processData: false,
                 success: function(response) {
-                    if (JSON.parse(response).status === 'success') {
-                        alert('Foto agregada correctamente');
+                    const data = JSON.parse(response);
+                    if (data.status === 'success') {
+                        alert(data.message);
                         cargarFotos();
                     } else {
-                        alert('Error al agregar foto');
+                        alert(data.message);
                     }
+                },
+                error: function(xhr, status, error) {
+                    alert("Error al subir la foto: " + error);
                 }
             });
         });
