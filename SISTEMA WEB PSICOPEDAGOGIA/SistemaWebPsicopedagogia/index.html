@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Proyecto Vue</title>
-    <!-- Incluir la biblioteca de Vue.js -->
+    
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
-    <link rel="stylesheet" href="styles.css"> <!-- Archivo de estilos -->
+    <link rel="stylesheet" href="styles.css"> 
 </head>
 <body>
-    <!-- Header -->
+    
     <header>
         <nav>
             <ul>
@@ -21,14 +21,14 @@
                 <li><a href="Investigacion.html">Investigacion</a></li>
                 <li><a href="InteraccionSocial.html">Interaccion Social</a></li>
                 <li><a href="Contactos.html">Contactos</a></li>
-                <!-- Agregar más enlaces aquí según sea necesario -->
+                
             </ul>
         </nav>
     </header>
 
-    <!-- Contenido principal -->
+   
     <main id="app">
-        <!-- Usar la interpolación de Vue para mostrar el mensaje -->
+        
         {{ mensaje }}
     </main>
     <div class="additional-links">
@@ -39,16 +39,16 @@
         <a href="#">Contactos</a>
     </div>
 
-    <!-- Footer -->
+   
     <footer>
         <p>&copy; DERECHOS RESERVADOS "UCB"</p>
     </footer>
 
     <script>
-        // Instancia de Vue
+       
         new Vue({
-            el: '#app', // Elemento HTML asociado a la instancia de Vue
-            data: { // Datos que la instancia de Vue puede utilizar
+            el: '#app', 
+            data: { 
                 mensaje: 'Hola Mundo con Vue.js'
             }
         });
