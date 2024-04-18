@@ -36,3 +36,15 @@ footer {
     padding: 10px 0;
     text-align: center;
 }
+.additional-links {
+    text-align: center;
+    margin-top: 20px;
+}
+.additional-links a {
+    color: #041d8b; /* Cambio de color de texto */
+    text-decoration: none;
+    margin: 0 10px; /* Añadido espacio entre enlaces */
+}
+.additional-links a:hover {
+    text-decoration: underline; /* Subrayado al pasar el ratón */
+}
