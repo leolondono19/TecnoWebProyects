@@ -1,25 +1,57 @@
-<template>
-  <div>
-    <!-- Usar la interpolación de Vue para mostrar el mensaje -->
-    {{ mensaje }}
-  </div>
+  <template>
+    <div class="page-wrapper">
+        <LayoutHeader1 />
+        <div>
+          <router-view></router-view>
+
+        </div>
+        <LayoutFooter1 />
+        <ElementsBackToTop @click="scrollToTop()" />
+    </div>
 </template>
+       
 
-<script>
-export default {
-  data() {
-    return {
-      mensaje: 'Hola Mundo con Vue.js desde App.vue'
-    };
-  }
-};
-</script>
 
-<style>
-/* Estilos opcionales */
-div {
-  font-size: 2em;
-  text-align: center;
-  margin-top: 20px;
-}
-</style>
+ 
+ <script>
+ //import Cookies from 'js-cookie';
+  import LayoutHeader1 from '@/components/layout/Header1.vue';
+  import LayoutFooter1 from '@/components/layout/Footer1.vue';
+  import ElementsBackToTop from '@/components/elements/BackToTop.vue';
+ export default {
+     name: 'App',
+     components: {
+       LayoutHeader1,
+       LayoutFooter1,
+        ElementsBackToTop
+     },
+    
+     data() {
+       return {
+         usuarioAutenticado: false,
+       };
+     },
+     methods: {
+        scrollToTop() {
+          window.scrollTo({
+            top: 0,
+            behavior: 'smooth',
+          });
+        },
+     },
+    
+ };
+ </script>
+ 
+ <style >
+ body{
+  width: 100vw;
+  overflow-x: hidden;
+ }
+
+
+ #app{
+  max-width: 100vw;
+ }
+
+ </style>
