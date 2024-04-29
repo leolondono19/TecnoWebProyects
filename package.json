@@ -1,0 +1,14 @@
+{
+  "name": "tecnowebproyects",
+  "version": "1.0.0",
+  "description": "GRUPO:\r - Jose Manzaneda\r - Miguel Quisbert\r - Leonee Londoño\r - Adrian Quiroga",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
