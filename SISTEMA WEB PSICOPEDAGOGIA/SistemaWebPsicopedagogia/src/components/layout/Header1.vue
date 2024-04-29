@@ -8,7 +8,7 @@
                     <router-link to="/"><img src="/images/ucb.png" alt="" title="Tronis" style="height: 6rem; width: 6rem;"></router-link>
           </div>
                 <div class="logo">
-                    <router-link to="/"><img src="/images/logo1.png" alt="" title="Tronis"></router-link>
+                    <router-link to="/"><img src="" alt="" title="Tronis"></router-link>
                 </div>
             </div>
 
@@ -40,7 +40,7 @@
             <nav class="menu-box">
                 <div class="upper-box">
                     <div class="nav-logo">
-                        <router-link to="/"><img src="/images/logo-2.png" alt="" title=""></router-link>
+                        <router-link to="/"><img src="" alt="" title=""></router-link>
                     </div>
                     <div class="close-btn" @click="handleToggled"><i class="icon fa fa-times"></i></div>
                 </div>
@@ -109,7 +109,7 @@
                 <div class="inner-container">
                     <!--Logo-->
                     <div class="logo">
-                        <router-link to="/" title=""><img src="/images/logo1.png" alt="" title=""></router-link>
+                        <router-link to="/" title=""><img src="" alt="" title=""></router-link>
                     </div>
 
                     <!--Right Col-->

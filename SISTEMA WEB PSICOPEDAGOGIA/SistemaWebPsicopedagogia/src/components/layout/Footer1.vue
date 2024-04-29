@@ -14,23 +14,10 @@
                     <div class="footer-column col-xl-3 col-lg-12 col-md-6 col-sm-12">
                         <div class="footer-widget about-widget">
                             <div class="logo">
-                                <router-link to="/"><img src="/images/logo-2.png"  style="filter: drop-shadow(1px 1px 2px black);" ></router-link>
+                                <router-link to="/"><img src=""  style="filter: drop-shadow(1px 1px 2px black);" ></router-link>
                             </div>
                             <div class="text">Con más de 10 años de experiencia</div>
-                            <ul class="social-icon-two">
-                                <li>
-                                    <router-link to="/#"><i class="fab fa-twitter"></i></router-link>
-                                </li>
-                                <li>
-                                    <router-link to="/#"><i class="fab fa-facebook"></i></router-link>
-                                </li>
-                                <li>
-                                    <router-link to="/#"><i class="fab fa-pinterest"></i></router-link>
-                                </li>
-                                <li>
-                                    <router-link to="/#"><i class="fab fa-instagram"></i></router-link>
-                                </li>
-                            </ul>
+                            
                         </div>
                     </div>
 
@@ -94,19 +81,15 @@
                                     <li><i class="fa fa-phone-square"></i>
                                         <router-link to="tel:+926668880000">+591 77777761</router-link>
                                     </li>
-                                    <li><i class="fa fa-envelope"></i>
-                                        <router-link to="mailto:needhelp@potisen.com">ucb.edu.bo</router-link>
+                                    <li><i class=""></i>
+                                        <router-link to="mailto:needhelp@potisen.com">psicopedagogia.lpz@ucb.edu.bo</router-link>
                                     </li>
-                                    <li><i class="fa fa-map-marker-alt"></i> Av. Obrajdes</li>
+                                    <li><i class="fa fa-map-marker-alt"></i> Obrajes calle 2, Av. 14 de Septiembre Bloque "N" (Jardín posterior), Ciudad La Paz, Bolivia</li>
                                 </ul>
                                 <div class="subscribe-form">
 
                                     <form method="post" action="#">
-                                        <div class="form-group">
-                                            <input type="email" name="email" class="email" placeholder="Correo Electrónico">
-                                            <button type="button" class="theme-btn btn-style-one"><i
-                                                    class="fa fa-long-arrow-alt-right"></i></button>
-                                        </div>
+                                        
                                     </form>
                                 </div>
                             </div>
@@ -121,9 +104,9 @@
             <div class="auto-container">
                 <div class="inner-container">
                     <div class="logo">
-                                <router-link to="/"><img src="/images/logo-2.png"  style="filter: drop-shadow(1px 1px 2px black);" ></router-link>
+                                <router-link to="/"><img src=""  style="filter: drop-shadow(1px 1px 2px black);" ></router-link>
                             </div>
-                    <div class="copyright-text">© Derechos de Autor 2022 por <router-link to="/">Compañía.com</router-link>
+                    <div class="copyright-text">© Derechos de autor 2024 por <router-link to="/">PsicopedagogiaUCB.com</router-link>
                     </div>
                 </div>
             </div>

@@ -1,18 +1,18 @@
 <template>
     <ul class="navigation">
         <li class="current ">
-            <router-link to="/">Inicio</router-link>
+            <router-link to="/">Home</router-link>
           
         </li>
        
         <li class="dropdown">
-            <router-link to="/">Tu y UCB</router-link>
+            <router-link to="/">UCB</router-link>
             <ul>
                 <li>
                     <router-link to="/">Inscripciones</router-link>
                 </li>
                 <li>
-                    <router-link to="/">Tarifarioa Actualizado</router-link>
+                    <router-link to="/">Tarifario Actualizado</router-link>
                 </li>
                 <li>
                     <router-link to="/">Planes de pago</router-link>
@@ -23,7 +23,7 @@
             </ul>
         </li>
         <li class="dropdown">
-            <router-link to="/#">Formacion Academica PSP</router-link>
+            <router-link to="/#">F. Academica</router-link>
             <ul>
                 <li>
                     <router-link to="/">Formacion Pregrado</router-link>
@@ -48,7 +48,7 @@
             </ul>
         </li>
         <li class="dropdown">
-            <router-link to="/#">Programa Integra Psicopedagogia</router-link>
+            <router-link to="/#">Programa Integral</router-link>
             <ul>
                 <li>
                     <router-link to="/">Graduados</router-link>
@@ -59,10 +59,10 @@
             </ul>
         </li>
         <li>
-            <router-link to="/">Red Psicopedagogia</router-link>
+            <router-link to="/">Red PSP</router-link>
         </li>
         <li>
-            <router-link to="/Login">Inicia Sesion</router-link>
+            <router-link to="/Login">Sesion</router-link>
         </li>
       
     </ul>

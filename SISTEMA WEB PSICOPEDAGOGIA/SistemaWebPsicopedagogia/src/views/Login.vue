@@ -4,10 +4,10 @@
     <section class="signup-section" >
         <div class="auto-container">
             <div class="anim-icons">
-                <span class="icon icon-paper-clip bounce-x"></span>
+                <span class=""></span>
             </div>
-            <div class="outer-box" style="background-image: url(./images/background/3.jpg); margin: 10rem">
-                <span class="float-icon icon-pencil-line wow fadeInUp"></span>
+            <div class="outer-box" style="background-image: url(./images/main-slider/bg-pattern-2.jpg); margin: 10rem">
+                <span class=""></span>
                 <div class="row">
                     <!-- Title Column -->
                     <div class="title-column col-lg-6 col-md-12 col-sm-12">

@@ -6,7 +6,7 @@
 
         </div>
         <LayoutFooter1 />
-        <ElementsBackToTop @click="scrollToTop()" />
+
     </div>
 </template>
        

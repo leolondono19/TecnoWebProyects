@@ -16,8 +16,7 @@
                 <div class="row align-items-center">
                     <div class="content-column col-lg-6 col-md-12">
                         <div class="content-box">
-                            <span class="sub-title">Universidad Católica Boliviana</span>
-                            <h1 class="banner-one__title banner-one__light-color">Bienvenido a <span class="style-font">Psicopedagogía</span></h1>
+                            <h1 class="banner-one__title banner-one__light-color">Bienvenido a la carrera de Psicopedagogía<span class="style-font"></span></h1>
                             <div class="text">
                                 La carrera de Psicopedagogía, una de las carreras más jóvenes en nuestra universidad, proyecta sus profesionales a convertirse en agentes de cambio que, a través de la educación y de mejorar sus condiciones en cuanto a calidad, equidad, pertinencia y eficacia, puedan transformar nuestra sociedad desde las áreas educativa, social, clínica y laboral.
                             </div>
@@ -28,8 +27,8 @@
                     </div>
                     <div class="image-column col-lg-6 col-md-12">
                         <div class="image">
-                            <figure class="image-1 overlay-anim m-0">
-                                <img src="/images/main-slider/image-1.png" alt="">
+                            <figure class="">
+                                <img src="/images/main-slider/image-2.jpg" alt="">
                             </figure>
                         </div>
                     </div>
@@ -43,7 +42,6 @@
                 <div class="row align-items-center">
                     <div class="content-column col-lg-6 col-md-12">
                         <div class="content-box">
-                            <span class="sub-title">Universidad Católica Boliviana</span>
                             <h1 class="banner-one__title banner-one__light-color">¿Que es Psicopedagogia?</h1>
                             <div class="text">
                             La Psicopedagogía es una disciplina que estudia los procesos de aprendizaje y enseñanza desde una perspectiva psicológica y pedagógica. Surgió a mediados del siglo XX como respuesta a la necesidad de comprender y abordar las dificultades de aprendizaje y adaptación escolar. Desarrollar actividades de enseñanza-aprendizaje, con profesionales altamente capacitados en las diferentes áreas del conocimiento psicopedagógico y en los métodos actuales de la educación superior.<br>
@@ -62,10 +60,10 @@
     </swiper>
     <ul class="banner-social-links">
         <li>
-            <router-link to="#">Facebook</router-link>
+            <router-link to="#"></router-link>
         </li>
         <li>
-            <router-link to="#">Instagram</router-link>
+            <router-link to="#"></router-link>
         </li>
     </ul>
 </section>
@@ -74,15 +72,14 @@
 
 
 <div>
-  <div class="top-left"><img class="patron"src="/images/main-slider/icon/patron3.png" ></div>
+
  
 </div>
 <section class="about-section-two">
  
         <div class="anim-icons" style="overflow: hidden;">
           
-            <span class="icon icon-e wow zoomIn"></span>
-            <span class="icon icon-dots-2 bounce-x"></span>
+
         </div>
         <div class="auto-container">
             <div class="row">
@@ -106,7 +103,7 @@
                             <span class="icon icon-dotted-line"></span>
                             <span class="icon icon-papper-plan"></span>
                         </div>
-                        <figure class="image overlay-anim wow fadeInUp"><img src="/images/resource/about-3.jpg" alt="">
+                        <figure class=""><img src="/images/resource/about-3.jpg" alt="">
                         </figure>
                     </div>
                 </div>
@@ -116,61 +113,6 @@
         
     </section>
 
-  
-  
-
-    <section class="about-section">
-   
-    <div class="auto-container" >
-        <div class="row justify-content-between">
-           
-            <div class="col-xl-6 col-lg-7 col-md-12" data-wow-delay="300ms">
-              <swiper-slide class="testimonial-block">
-                                <div class="inner-box">
-                                    <div class="content-box">
-                                        <figure class="thumb"><img src="/images/apoyo/mision.pdf" alt=""></figure>
-                              
-                                           
-                                            <h4 class="name">Nuestra Mision</h4>
-                                        
-                                       
-                                        <div class="text">Formar profesionales Psicopedagogos, capaces de aportar a la solución de problemáticas del
-ámbito educativo y social de manera integral, con conocimientos de los fundamentos teórico-
-conceptuales y destrezas procedimentales de la Psicopedagogía.</div>
-                                      
-                                    </div>
-                                </div>
-                            </swiper-slide>
-            </div>
-            <div class="col-xl-6 col-lg-7 col-md-12" data-wow-delay="300ms">
-              <swiper-slide class="testimonial-block">
-                
-                                <div class="inner-box">
-                                  
-                                    <div class="content-box">
-                                        <figure class="thumb"><img src="/images/apoyo/vision.pdf" alt=""></figure>
-                              
-                                           
-                                            <h4 class="name">Nuestra Visión</h4>
-                                        
-                                       
-                                        <div class="text">
-                                          Formar profesionales Psicopedagogos, capaces de aportar a la solución de problemáticas del
-ámbito educativo y social de manera integral, con conocimientos de los fundamentos teórico-
-conceptuales y destrezas procedimentales de la Psicopedagogía.</div>
-                                      
-                                    </div>
-                                    
-                                </div>
-                            </swiper-slide>
-                            
-                            
-            </div>
-        </div>
-        
-    </div>
-  
-</section>
 
 <!--   ---------------------------------------------------------------------------------- --> 
 
@@ -195,10 +137,10 @@ transformación social.</div>
                         </div>
 
                         <ul class="list-style-one two-column">
-                            <li><i class="icon fa fa-check"></i> Interés por el desarrollo humano</li>
-                            <li><i class="icon fa fa-check"></i> Empatía y capacidad de escucha</li>
-                            <li><i class="icon fa fa-check"></i> Adaptabilidad y flexibilidad</li>
-                            <li><i class="icon fa fa-check"></i>Ética profesional y confidencialidad</li>
+                            <li><i class=""></i> 1. Interés por el desarrollo humano</li>
+                            <li><i class=""></i> 2. Empatía y capacidad de escucha</li>
+                            <li><i class=""></i> 3. Adaptabilidad y flexibilidad</li>
+                            <li><i class=""></i>4. Ética profesional y confidencialidad</li>
                         </ul>
 
                         <div class="btn-box">
@@ -210,18 +152,13 @@ transformación social.</div>
                 <!-- Image Column -->
                 <div class="image-column col-lg-6 col-md-12">
     <div class="anim-icons">
-        <span class="icon icon-dotted-map-2"></span>
-        <span class="icon icon-paper-plan"></span>
-        <span class="icon icon-dotted-line"></span>
     </div>
     <div class="inner-column wow fadeInLeft">
-        <figure class="image-1 overlay-anim wow fadeInUp">
+        <figure class="">
             <img src="/images/resource/about-1.png" alt="">
         </figure>
-        <figure class="image-2 overlay-anim wow fadeInRight">
-            <img src="/images/resource/about-2.jpg" alt="">
-        </figure>
-        <div class="experience bounce-y"><span  class="count">15</span > Años de experiencia</div>
+
+        
     </div>
 </div>
             </div>
@@ -306,7 +243,7 @@ transformación social.</div>
                         <router-link to="/page-course-details">Psicopedagogía
 Educativa</router-link>
                     </h5>
-                    <div class="other-info">
+                    <div class="">
                         <ul class="course-info">
                         <li><i class="fa fa-book"></i> Asesorar y diseñar sistemas, programas y estrategias de formación, en espacios
 de educación formal y no formal para optimizar los procesos de aprendizaje y
@@ -338,7 +275,7 @@ enseñanza, de acuerdo con las necesidades y demandas de estos espacios.</li>
                         <router-link to="/page-course-details">Psicopedagogía
 Clínica</router-link>
                     </h5>
-                    <div class="other-info">
+                    <div class="">
                         <ul class="course-info">
                         <li><i class="fa fa-book"></i> Intervenir psicopedagógicamente las distintas dificultades de aprendizaje y
 necesidades educativas especiales a través de procedimientos y protocolos en
@@ -372,7 +309,7 @@ evaluación psicopedagógica, elaboración de diagnósticos.</li>
                         <router-link to="/page-course-details">Psicopedagogía
 Social</router-link>
                     </h5>
-                    <div class="other-info">
+                    <div class="">
                         <ul class="course-info">
                         <li><i class="fa fa-book"></i> Gestionar procesos de formación en diferentes grupos humanos y contextos,
 con la finalidad de construir conocimientos significativos y relevantes de
@@ -407,7 +344,7 @@ interacción y de la sociedad.</li>
                         <router-link to="/page-course-details">Psicopedagogía
 Laboral</router-link>
                     </h5>
-                    <div class="other-info">
+                    <div class="">
                         <ul class="course-info">
                         <li><i class="fa fa-book"></i> Gestionar el aprendizaje en contexto laboral con el propósito de consolidar una
 visión estratégica de la gestión de las personas y sus talentos, articulando el
@@ -427,7 +364,6 @@ personal.</li>
 
           
         </div>
-        <img class="patron"src="/images/main-slider/icon/patron4.png" style="bottom: 0rem;z-index: -1; " >
 
     </section>
 
