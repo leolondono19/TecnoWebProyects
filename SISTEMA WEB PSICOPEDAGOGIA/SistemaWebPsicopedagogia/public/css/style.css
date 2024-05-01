@@ -49,7 +49,7 @@ License: copyright commercial
   --theme-color1: #191e24;
   --theme-color2: #00c7c4;
   --theme-color3: #7054e6;
-  --theme-color4: #ec7d05;
+  --theme-color4: #000000;
   --theme-color5: #ef5c72;
   --theme-color6: #1a2d55;
   --theme-color7: #41d651;
@@ -11372,7 +11372,7 @@ Sidebar
 .user-links li a {
   position: relative;
   display: inline-block;
-  color: #b46106;
+  color: #FFFFFF;
   -webkit-transition: all 300ms ease;
   transition: all 300ms ease;
 }

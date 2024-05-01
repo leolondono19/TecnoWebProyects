@@ -9,6 +9,7 @@ import Login from '../views/Login.vue'
 import Docentes from '../views/Estudiante/Docentes.vue'
 import TrabajoObraSocial from '../views/Estudiante/TrabajoObraSocial.vue'
 import ObraSocial from '../views/Estudiante/ObraSocial.vue'
+import CursosFormacionContinua from '../views/Estudiante/CursosFormacionContinua.vue'
 
 
 const router = createRouter({
@@ -61,6 +62,11 @@ const router = createRouter({
       path: '/ObraSocial',
       name: 'ObraSocial',
       component: ObraSocial
+    },
+    {
+      path: '/CursosFormacionContinua',
+      name: 'CursosFormacionContinua',
+      component: CursosFormacionContinua
     },
   ]
 })
