@@ -10,6 +10,7 @@ import Docentes from '../views/Estudiante/Docentes.vue'
 import TrabajoObraSocial from '../views/Estudiante/TrabajoObraSocial.vue'
 import ObraSocial from '../views/Estudiante/ObraSocial.vue'
 import CursosFormacionContinua from '../views/Estudiante/CursosFormacionContinua.vue'
+import Postgrado from '../views/Estudiante/Postgrado.vue'
 
 
 const router = createRouter({
@@ -67,6 +68,11 @@ const router = createRouter({
       path: '/CursosFormacionContinua',
       name: 'CursosFormacionContinua',
       component: CursosFormacionContinua
+    },
+    {
+      path: '/Postgrado',
+      name: 'Postgrado',
+      component: Postgrado
     },
   ]
 })
