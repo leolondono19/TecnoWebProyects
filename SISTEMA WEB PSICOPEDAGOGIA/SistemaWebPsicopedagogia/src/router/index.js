@@ -6,7 +6,8 @@ import basesita3 from '../views/BasesParaDesarrollar.vue/basesita3.vue'
 import Login from '../views/Login.vue'
 
     //Vista estudiantes
-import Docentes from '../views/Estudiante/Docentes.vue'
+import Docentes from '../views/Estudiante/Docentes.vue'    
+import Graduados from '../views/Estudiante/Graduados.vue'
 import TrabajoObraSocial from '../views/Estudiante/TrabajoObraSocial.vue'
 import RedPsico from '../views/Estudiante/RedPsico.vue'
 import CursosFormacionContinua from '../views/Estudiante/CursosFormacionContinua.vue'
@@ -57,6 +58,11 @@ const router = createRouter({
       path: '/Docentes',
       name: 'Docentes',
       component: Docentes
+    },
+    {
+      path: '/Graduados',
+      name: 'Graduados',
+      component: Graduados
     },
     {
       path: '/TrabajoObraSocial',
