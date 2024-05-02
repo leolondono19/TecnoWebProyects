@@ -21,7 +21,6 @@
   </template>
   
   <script>
-  import { useLoginStore } from '@/stores/loginStore.js';
   
   export default {
     name: 'LoginPage',
