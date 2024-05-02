@@ -29,56 +29,56 @@
             nombre: 'Intervención Psicopedagógica', 
             descripcion: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam placerat orci nec viverra.',
             duracion: '8 semanas',
-            imagen: '/images/intervencion-psicopedagogica.jpg' // Ruta de la imagen del curso
+            imagen: '/images/DOC2.png' // Ruta de la imagen del curso
           },
           { 
             id: 2, 
             nombre: 'Neurociencias aplicadas a la Educación', 
             descripcion: 'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
             duracion: '12 semanas',
-            imagen: '/images/neurociencias-educacion.jpg' // Ruta de la imagen del curso
+            imagen: '/images/DOC2.png' // Ruta de la imagen del curso
           },
           { 
           id: 3, 
           nombre: 'Desarrollo del Lenguaje en la Infancia', 
           descripcion: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.',
           duracion: '10 semanas',
-          imagen: '/images/desarrollo-lenguaje-infancia.jpg' // Ruta de la imagen del curso
+          imagen: '/images/DOC2.png' // Ruta de la imagen del curso
         },
         { 
           id: 4, 
           nombre: 'Evaluación y Diagnóstico Psicopedagógico', 
           descripcion: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum.',
           duracion: '6 semanas',
-          imagen: '/images/evaluacion-diagnostico-psicopedagogico.jpg' // Ruta de la imagen del curso
+          imagen: '/images/DOC2.png' // Ruta de la imagen del curso
         },
         { 
           id: 5, 
           nombre: 'Tecnología Educativa en el Aula', 
           descripcion: 'Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.',
           duracion: '8 semanas',
-          imagen: '/images/tecnologia-educativa-aula.jpg' // Ruta de la imagen del curso
+          imagen: '/images/DOC2.png' // Ruta de la imagen del curso
         },
         { 
           id: 6, 
           nombre: 'Aprendizaje Basado en Proyectos', 
           descripcion: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
           duracion: '12 semanas',
-          imagen: '/images/aprendizaje-basado-proyectos.jpg' // Ruta de la imagen del curso
+          imagen: '/images/DOC2.png' // Ruta de la imagen del curso
         },
         { 
           id: 7, 
           nombre: 'Inclusión Educativa', 
           descripcion: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
           duracion: '10 semanas',
-          imagen: '/images/inclusion-educativa.jpg' // Ruta de la imagen del curso
+          imagen: '/images/DOC2.png' // Ruta de la imagen del curso
         },
         { 
           id: 8, 
           nombre: 'Estrategias de Enseñanza Efectivas', 
           descripcion: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos.',
           duracion: '8 semanas',
-          imagen: '/images/estrategias-ensenanza-efectivas.jpg' // Ruta de la imagen del curso
+          imagen: '/images/DOC2.png' // Ruta de la imagen del curso
         },
         ]
       };
