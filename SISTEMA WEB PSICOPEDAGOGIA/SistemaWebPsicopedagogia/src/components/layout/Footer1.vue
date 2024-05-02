@@ -11,14 +11,14 @@
                     <!-- Columna del Pie de Página -->
                     <div class="footer-column col-xl-8 col-lg-12 col-md-12 col-sm-12">
                         <div class="footer-widget contact-widget">
-                            <h4 class="widget-title" style="color: white; font-size: 24px;">Contacto</h4>
+                            <h4 class="widget-title" style="color: #6bb940; font-size: 24px;">Contacto</h4>
                             <div class="widget-content">
-                                <ul class="contact-info" style="color: white; font-size: 18px;">
+                                <ul class="contact-info" style="color: #063971; font-size: 18px;">
                                     <li><i class="fa fa-phone-square"></i>
-                                        <router-link to="tel:+926668880000" style="color: white;">+591 77777761</router-link>
+                                        <router-link to="tel:+926668880000" style="color: #063971;">+591 77777761</router-link>
                                     </li>
                                     <li><i class=""></i>
-                                        <router-link to="mailto:needhelp@potisen.com" style="color: white;">psicopedagogia.lpz@ucb.edu.bo</router-link>
+                                        <router-link to="mailto:needhelp@potisen.com" style="color: #063971;">psicopedagogia.lpz@ucb.edu.bo</router-link>
                                     </li>
                                     <li><i class=""></i> Obrajes calle 2, Av. 14 de Septiembre Bloque "N" (Jardín posterior), Ciudad La Paz, Bolivia</li>
                                 </ul>
@@ -34,7 +34,7 @@
                     <div class="footer-column col-xl-4 col-lg-12 col-md-12 col-sm-12">
                         <div class="footer-widget">
                             <div class="logo" style="float: right;">
-                                <router-link to="/"><img src="/images/logo1.png" alt="Logo" style="max-width: 200px; filter: drop-shadow(1px 1px 2px black);" ></router-link>
+                                <router-link to="/"><img src="/images/logo-2.png" alt="Logo" style="max-width: 400px; filter: drop-shadow(1px 1px 2px black);" ></router-link>
                             </div>
                         </div>
                     </div>
@@ -65,12 +65,12 @@ footer {
 }
 
 .widget-title {
-    color: white;
+    color: #063971;
     font-size: 24px;
 }
 
 .contact-info li {
-    color: white;
+    color: #063971;
     font-size: 18px;
 }
 
@@ -87,7 +87,7 @@ footer {
 }
 
 .copyright-text {
-    color: white;
+    color: #6bb940;
     font-size: 20px;
 }
 </style>

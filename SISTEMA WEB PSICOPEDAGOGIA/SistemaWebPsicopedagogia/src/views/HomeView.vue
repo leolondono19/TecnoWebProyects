@@ -12,7 +12,7 @@
             </div>
             <div class="col-lg-6">
               <div class="quienes-somos-image">
-                <img src="/images/logo1.png" alt="Quiénes Somos">
+                <img src="/images/foto1.jpg" alt="Quiénes Somos">
               </div>
             </div>
           </div>
@@ -26,13 +26,13 @@
             <div class="col-lg-6">
               <div class="mision-text box">
                 <h3>Misión</h3>
-                <p>Nuestra misión es...</p>
+                <p>"Nuestra misión es formar profesionales en Psicopedagogía comprometidos con el desarrollo integral de las personas, capacitados para comprender y abordar los procesos de aprendizaje desde una perspectiva psicológica y pedagógica. Buscamos promover la inclusión, la equidad y la calidad educativa, contribuyendo así a la transformación social y al bienestar de la comunidad."</p>
               </div>
             </div>
             <div class="col-lg-6">
               <div class="vision-text box">
                 <h3>Visión</h3>
-                <p>Nuestra visión es...</p>
+                <p>"Nos proyectamos como una carrera líder a nivel nacional e internacional en la formación de psicopedagogos altamente calificados, reconocidos por su excelencia académica, compromiso social y capacidad para promover el desarrollo humano y la innovación educativa. Aspiramos a ser referentes en la investigación y práctica psicopedagógica, impulsando el crecimiento y la mejora continua en el ámbito educativo y social."</p>
               </div>
             </div>
           </div>
@@ -70,16 +70,20 @@
   /* Estilos CSS para el diseño */
   .quienes-somos-section {
     padding: 80px 0;
+    background-image: url('/images/fondo1.jpg'); /* Ruta de la imagen de fondo */
+    background-size: cover; /* Ajusta la imagen de fondo para cubrir toda la sección */
+    background-position: center; /* Centra la imagen de fondo */
+    color: #fff; /* Color de texto blanco para mayor contraste con el fondo */
   }
   
   .quienes-somos-text h2 {
     font-size: 36px;
-    color: #333;
+    color: #fb7c0a;
   }
   
   .quienes-somos-text p {
     font-size: 18px;
-    color: #666;
+    color: #fdd000;
   }
   
   .quienes-somos-image img {
@@ -94,7 +98,7 @@
   .mision-text h3,
   .vision-text h3 {
     font-size: 24px;
-    color: #333;
+    color: #fb7c0a;
   }
   
   .perfil-estudiante-section {
@@ -103,12 +107,12 @@
   
   .perfil-estudiante-text h2 {
     font-size: 36px;
-    color: #333;
+    color: #fb7c0a;
   }
   
   .perfil-estudiante-text p {
     font-size: 18px;
-    color: #666;
+    color: #fdd000;
   }
   
   .perfil-estudiante-image img {
@@ -117,11 +121,11 @@
   }
   
   .box {
-    background-color: rgba(0, 0, 0, 0.5); /* Fondo más oscuro */
+    background-color: rgba(6, 57, 113, 0.8); /* Fondo más oscuro */
     padding: 20px;
     border-radius: 15px; /* Bordes redondeados */
     margin-bottom: 30px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Sombra */
+    box-shadow: 0 0 15px #dfdfdf1a; /* Sombra */
   }
   
   .box h2,
