@@ -17,6 +17,7 @@
             <span @click="toggleDropdownPostgrado">Posgrado <i class="fas fa-chevron-down"></i></span>
             <ul v-show="isDropdownOpenPostgrado">
               <li><router-link to="CursosFormacionContinua">Cursos de Formacion Continua</router-link></li>
+              <li><router-link to="Posgrado">Informacion Posgrado</router-link></li>
               <li><router-link to="DiplomadoEspecialidadMaestria">Diplomados Especialidades y Maestrias</router-link></li>
             </ul>
           </li>
