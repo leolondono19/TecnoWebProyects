@@ -24,24 +24,23 @@ export default {
           id: 1,
           nombre: "Diplomado en Educación Psicopedagógica para Niveles Inicial, Primario y Secundario",
           descripcion: "El diplomado en Educación Psicopedagógica es un programa de posgrado que tiene como objetivo formar profesionales en el campo de la educación con una visión integral de la psicopedagogía, es decir, con una comprensión profunda de los procesos de aprendizaje y desarrollo de los estudiantes.",
-          imagen: "https://www.posgrado.unam.mx/media/k2/items/cache/99d9da8b6e99d3a706d831b138f5f3f8_XL.jpg",
-          enlace: "https://www.posgrado.unam.mx/programas-de-posgrado/doctorado-en-ingenieria"
+          imagen: "/public/images/diplomado.jpg",
+          enlace: "#"
         },
         {
           id: 2,
           nombre: "Maestría en Psicopegagogía",
           descripcion: "Conoce y domina las estrategias de psicopedagogía para generar un proceso de enseñanza-aprendizaje integral con base en disciplinas relacionadas a la psicología y pedagogía. Solicita ahora tu admisión.",
-          imagen: "https://www.posgrado.unam.mx/media/k2/items/cache/eb3c9e29d7d883b0dc07a5b79d02e81f_XL.jpg",
-          enlace: "https://www.posgrado.unam.mx/programas-de-posgrado/maestria-en-ciencias-de-la-computacion"
+          imagen: "/public/images/maestria.jpg",
+          enlace: "#"
         },
         {
           id: 3,
           nombre: "Doctorado en Psicopedagogía",
-          descripcion: "El Doctorado en Ingeniería es un programa de posgrado ofrecido por la Universidad Nacional Autónoma de México (UNAM).",
-          imagen: "https://www.posgrado.unam.mx/media/k2/items/cache/99d9da8b6e99d3a706d831b138f5f3f8_XL.jpg",
-          enlace: "https://www.posgrado.unam.mx/programas-de-posgrado/doctorado-en-ingenieria"
+          descripcion: "El Doctorado a distancia en UCB proporcionará a los estudiantes la capacidad de aprender de forma autodidacta. En UCB, nos comprometemos a proporcionar a nuestros estudiantes todas las herramientas necesarias para alcanzar el máximo nivel de aprendizaje. Para asegurar su progreso académico y conocimientos, se llevará a cabo una evaluación continua por parte de un consejero académico. El enfoque de educación a distancia de UCB ayudará a los estudiantes a optimizar su tiempo y esfuerzo para su desarrollo académico personal.",
+          imagen: "/public/images/doctorado.jpg",
+          enlace: "#"
         },
-        // Agrega más programas aquí si es necesario
       ]
     };
   }
