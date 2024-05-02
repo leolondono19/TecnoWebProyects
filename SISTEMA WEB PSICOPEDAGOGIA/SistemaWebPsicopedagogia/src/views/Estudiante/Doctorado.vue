@@ -136,7 +136,6 @@
   }
   
   ul {
-    color: black;
     list-style-type: disc;
     margin-left: 2rem;
     margin-bottom: 1rem;

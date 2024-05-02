@@ -26,7 +26,7 @@
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <div class="about-pic">
-                        <img src="#" alt="">
+                        <img src="/public/images/dippsicopedagogia.jpg" alt="">
                     </div>
                 </div>
             </div>
