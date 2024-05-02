@@ -1,36 +1,83 @@
 <template>
     <div>
-      <!-- Sección Quiénes Somos -->
-      <section class="quienes-somos-section">
-    <div class="container">
-      <div class="row align-items-center">
-        <div class="col-lg-6">
-          <div class="quienes-somos-text box">
-            <h2>¿Quiénes Somos?</h2>
-            <p>Una familia de profesionales y estudiantes que, desde la psicopedagogía, contribuyen a la transformación social a través de la educación y propuestas críticas, estratégicas y científicas, con un enfoque de enseñanza – aprendizaje en diferentes niveles, ámbitos, sistemas, instituciones, organismos gubernamentales y no gubernamentales, para la construcción de una sociedad digna, justa, equitativa en Bolivia y el mundo.</p>
-          </div>
-        </div>
-        <div class="col-lg-6">
-          <div class="swiper-container quienes-somos-slider">
-            <div class="swiper-wrapper">
-              <swiper-slide class="slide-item">
-                <img src="/images/foto1.jpg" alt="Slide 1">
-              </swiper-slide>
-              <swiper-slide class="slide-item">
-                <img src="/images/foto2.jpg" alt="Slide 2">
-              </swiper-slide>
-              <swiper-slide class="slide-item">
-                <img src="/images/foto3.jpg" alt="Slide 3">
-              </swiper-slide>
+      <section class="banner-section-two main-slider">
+    <swiper :slides-per-view="1" :space-between="30" :loop="false" :autoplay="{
+      delay: 8000,
+      disableOnInteraction: true,
+    }" :pagination="{
+      el: '.swiper-pagination',
+      clickable: true,
+    }" :navigation="{
+      nextEl: '.h1n',
+      prevEl: '.h1p',
+    }" :modules="modules" class="banner-carousel owl-carousel owl-theme">
+    <!-- Slide Item -->
+    <swiper-slide class="slide-item">
+      <div class="bg-image" style="background-image: url(images/main-slider/1.jpg);"></div>
+      <div class="auto-container">
+        <div class="row align-items-center">
+          <div class="content-column col-lg-7 col-md-10">
+            <div class="content-box mt-md-30">
+              <h1 class="banner-one__title banner-one__light-color">Bienvenido a <span class="style-font">  </span> <br />Psicopedagogia </h1>
+              <div class="text">La Psicopedagogía, una disciplina emergente en nuestra universidad, impulsa a sus estudiantes a convertirse en catalizadores del cambio. A través de la educación y el mejoramiento de la calidad, equidad, pertinencia y eficacia, aspiramos a transformar nuestra sociedad en múltiples esferas: educativa, social, clínica y laboral. Nuestros profesionales están llamados a ser agentes de progreso, contribuyendo activamente a un mundo más justo y equitativo.</div>
+              <!-- <router-link to="/page-courses" class="theme-btn btn-style-one"><span class="btn-title">Mas informacion</span></router-link> -->
             </div>
-            <!-- Agrega las flechas de navegación si lo deseas -->
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
+          </div>
+
+          <div class="image-column col-lg-5 col-md-12 text-center text-md-right">
+            <div class="image">
+              <figure class="image-1 overlay-anim m-0"><img src="/images/foto3.jpg" alt="Imagen de Objetivos de la Carrera"></figure>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </swiper-slide>
+  </swiper>
+</section>
+
+
+<section class="banner-section-two main-slider">
+    <swiper :slides-per-view="1" :space-between="30" :loop="false" :autoplay="{
+      delay: 8000,
+      disableOnInteraction: true,
+    }" :pagination="{
+      el: '.swiper-pagination',
+      clickable: true,
+    }" :navigation="{
+      nextEl: '.h1n',
+      prevEl: '.h1p',
+    }" :modules="modules" class="banner-carousel owl-carousel owl-theme">
+    <!-- Slide Item -->
+    <swiper-slide class="slide-item">
+      <div class="bg-image" style="background-image: url(images/main-slider/2.jpg);"></div>
+      <div class="auto-container">
+        <div class="row align-items-center">
+          <div class="content-column col-lg-7 col-md-12">
+            <div class="content-box mt-md-30">
+              <h1 class="banner-one__title banner-one__light-color">Objetivos de  <br />la Carrera</h1>
+              <div class="text">Nuestro enfoque se centra en promover un aprendizaje dinámico y significativo, respaldado por expertos en diversas áreas del ámbito psicopedagógico y las últimas tendencias en educación superior. A través de la investigación innovadora en Psicopedagogía y disciplinas relacionadas, buscamos abordar los desafíos educativos y sociales actuales, ofreciendo soluciones creativas y efectivas para mejorar nuestra sociedad.</div>
+              <!-- <router-link to="/page-courses" class="theme-btn btn-style-one"><span class="btn-title">Conoce mas de la carrera</span></router-link> -->
+            </div>
+          </div>
+
+          <div class="video-column col-lg-5 col-md-12 text-center text-md-right">
+    <img src="/images/image-1.png" alt="Imagen de Quienes Somos" style="margin-left: auto; width: 400px; height: 300px;">
+</div>
+
+
+
+        </div>
+      </div>
+    </swiper-slide>
+  </swiper>
+</section>
+
+
+
+
+
+
+
   
       <!-- Sección Misión y Visión -->
       <section class="mision-vision-section">
@@ -64,7 +111,7 @@
             </div>
             <div class="col-lg-6">
               <div class="perfil-estudiante-image">
-                <img src="/images/logo1.png" alt="Perfil del Estudiante">
+                <img src="/images/foto1.jpg" alt="Perfil del Estudiante">
               </div>
             </div>
           </div>

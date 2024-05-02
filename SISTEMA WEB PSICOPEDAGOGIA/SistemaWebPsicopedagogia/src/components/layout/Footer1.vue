@@ -15,12 +15,12 @@
                             <div class="widget-content">
                                 <ul class="contact-info" style="color: #063971; font-size: 18px;">
                                     <li><i class="fa fa-phone-square"></i>
-                                        <router-link to="tel:+926668880000" style="color: #063971;">+591 77777761</router-link>
+                                        <router-link to="tel:+926668880000" style="color: #063971;">+591 66666666</router-link>
                                     </li>
                                     <li><i class=""></i>
-                                        <router-link to="mailto:needhelp@potisen.com" style="color: #063971;">psicopedagogia.lpz@ucb.edu.bo</router-link>
+                                        <router-link to="mailto:needhelp@potisen.com" style="color: #063971;">psicopedagogia@ucb.edu.bo</router-link>
                                     </li>
-                                    <li><i class=""></i> Obrajes calle 2, Av. 14 de Septiembre Bloque "N" (Jardín posterior), Ciudad La Paz, Bolivia</li>
+                                    <li><i class=""></i> Obrajes calle 2, Av. 14 de Septiembre Bloque "N", Ciudad La Paz, Bolivia</li>
                                 </ul>
                                 <div class="subscribe-form">
                                     <form method="post" action="#">
