@@ -124,18 +124,21 @@
   }
   
   ol {
+    color:black;
     list-style-type: decimal;
     margin-left: 2rem;
     margin-bottom: 1rem;
   }
   
   li {
+    color:black;
     font-size: 1.2rem;
     line-height: 1.5;
     margin-bottom: 0.5rem;
   }
   
   ul {
+    color:black;
     list-style-type: disc;
     margin-left: 2rem;
     margin-bottom: 1rem;
@@ -153,13 +156,14 @@
   
   th,
   td {
+    color:black;
     padding: 0.5rem;
-    border: 1px solid #ccc;
+    border: 1px solid black;
     text-align: left;
   }
   
   th {
-    background-color: #f2f2f2;
+    background-color: #fb7c0a;
   }
   </style>
   
