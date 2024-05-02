@@ -51,8 +51,8 @@ License: copyright commercial
   --theme-color3: #7054e6;
   --theme-color4: #000000;
   --theme-color5: #ef5c72;
-  --theme-color6: #1a2d55;
-  --theme-color7: #41d651;
+  --theme-color6: #ffffff;
+  --theme-color7: #00ff08;
   --bg-theme-color1: var(--theme-color1);
   --bg-theme-color2: var(--theme-color2);
   --bg-theme-color3: var(--theme-color3);
@@ -2474,7 +2474,7 @@ Header Style One
 .header-style-one .main-box {
   padding-right: 40px;
   padding-left: 0;
-  background-color: #41d651;
+  background: linear-gradient(#fb7c0a, #f49e52);
   -webkit-box-shadow: 0 10px 60px rgba(0, 0, 0, 0.1);
           box-shadow: 0 10px 60px rgba(0, 0, 0, 0.1);
 }
@@ -2534,7 +2534,7 @@ Header Style TWo
   top: 0;
   height: 100%;
   width: 1px;
-  background-color: #dae6e6;
+  background-color: #fb7c0a;
   -webkit-transform: rotate(10deg);
           transform: rotate(10deg);
   content: "";
@@ -11431,9 +11431,7 @@ Sidebar
   -webkit-transition: all 300ms ease;
   transition: all 300ms ease;
 }
-.contact-widget .contact-info li:hover {
-  color: var(--theme-color2);
-}
+
 
 /* Subscribe Form */
 .subscribe-form {
