@@ -25,21 +25,21 @@ export default {
           nombre: "Diplomado en Educación Psicopedagógica para Niveles Inicial, Primario y Secundario",
           descripcion: "El diplomado en Educación Psicopedagógica es un programa de posgrado que tiene como objetivo formar profesionales en el campo de la educación con una visión integral de la psicopedagogía, es decir, con una comprensión profunda de los procesos de aprendizaje y desarrollo de los estudiantes.",
           imagen: "/public/images/diplomado.jpg",
-          enlace: "#"
+          enlace: "/Diplomado"
         },
         {
           id: 2,
           nombre: "Maestría en Psicopegagogía",
           descripcion: "Conoce y domina las estrategias de psicopedagogía para generar un proceso de enseñanza-aprendizaje integral con base en disciplinas relacionadas a la psicología y pedagogía. Solicita ahora tu admisión.",
           imagen: "/public/images/maestria.jpg",
-          enlace: "#"
+          enlace: "/Maestria"
         },
         {
           id: 3,
           nombre: "Doctorado en Psicopedagogía",
           descripcion: "El Doctorado a distancia en UCB proporcionará a los estudiantes la capacidad de aprender de forma autodidacta. En UCB, nos comprometemos a proporcionar a nuestros estudiantes todas las herramientas necesarias para alcanzar el máximo nivel de aprendizaje. Para asegurar su progreso académico y conocimientos, se llevará a cabo una evaluación continua por parte de un consejero académico. El enfoque de educación a distancia de UCB ayudará a los estudiantes a optimizar su tiempo y esfuerzo para su desarrollo académico personal.",
           imagen: "/public/images/doctorado.jpg",
-          enlace: "#"
+          enlace: "/Doctorado"
         },
       ]
     };
