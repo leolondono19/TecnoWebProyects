@@ -2,22 +2,35 @@
     <div>
       <!-- Sección Quiénes Somos -->
       <section class="quienes-somos-section">
-        <div class="container">
-          <div class="row align-items-center">
-            <div class="col-lg-6">
-              <div class="quienes-somos-text box">
-                <h2>¿Quiénes Somos?</h2>
-                <p>Una familia de profesionales y estudiantes que, desde la psicopedagogía, contribuyen a la transformación social a través de la educación y propuestas críticas, estratégicas y científicas, con un enfoque de enseñanza – aprendizaje en diferentes niveles, ámbitos, sistemas, instituciones, organismos gubernamentales y no gubernamentales, para la construcción de una sociedad digna, justa, equitativa en Bolivia y el mundo.</p>
-              </div>
-            </div>
-            <div class="col-lg-6">
-              <div class="quienes-somos-image">
-                <img src="/images/foto1.jpg" alt="Quiénes Somos">
-              </div>
-            </div>
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <div class="quienes-somos-text box">
+            <h2>¿Quiénes Somos?</h2>
+            <p>Una familia de profesionales y estudiantes que, desde la psicopedagogía, contribuyen a la transformación social a través de la educación y propuestas críticas, estratégicas y científicas, con un enfoque de enseñanza – aprendizaje en diferentes niveles, ámbitos, sistemas, instituciones, organismos gubernamentales y no gubernamentales, para la construcción de una sociedad digna, justa, equitativa en Bolivia y el mundo.</p>
           </div>
         </div>
-      </section>
+        <div class="col-lg-6">
+          <div class="swiper-container quienes-somos-slider">
+            <div class="swiper-wrapper">
+              <swiper-slide class="slide-item">
+                <img src="/images/foto1.jpg" alt="Slide 1">
+              </swiper-slide>
+              <swiper-slide class="slide-item">
+                <img src="/images/foto2.jpg" alt="Slide 2">
+              </swiper-slide>
+              <swiper-slide class="slide-item">
+                <img src="/images/foto3.jpg" alt="Slide 3">
+              </swiper-slide>
+            </div>
+            <!-- Agrega las flechas de navegación si lo deseas -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
   
       <!-- Sección Misión y Visión -->
       <section class="mision-vision-section">
@@ -61,8 +74,23 @@
   </template>
   
   <script>
+  // Importa Swiper
+  import Swiper from 'swiper';
+  
   export default {
-    // Agrega lógica si es necesario
+    mounted() {
+      // Inicializa Swiper
+      var swiper = new Swiper('.quienes-somos-slider', {
+        loop: true,
+        autoplay: {
+          delay: 5000, // Intervalo entre cada cambio de slide en milisegundos (en este caso, 5 segundos)
+        },
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+      });
+    }
   }
   </script>
   
@@ -70,7 +98,7 @@
   /* Estilos CSS para el diseño */
   .quienes-somos-section {
     padding: 80px 0;
-    background-image: url('/images/fondo1.jpg'); /* Ruta de la imagen de fondo */
+    background-image: url('/images/FondoC.jpg'); /* Ruta de la imagen de fondo */
     background-size: cover; /* Ajusta la imagen de fondo para cubrir toda la sección */
     background-position: center; /* Centra la imagen de fondo */
     color: #fff; /* Color de texto blanco para mayor contraste con el fondo */

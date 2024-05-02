@@ -11,31 +11,31 @@
       <nav class="main-navigation">
         <ul class="menu">
           <li>
-            <router-link to="/">Home</router-link>
+            <router-link to="home">Home</router-link>
           </li>
           <li>
             <span @click="toggleDropdownPostgrado">Posgrado <i class="fas fa-chevron-down"></i></span>
             <ul v-show="isDropdownOpenPostgrado">
-              <li><router-link to="/">Cursos de Formacion Continua</router-link></li>
-              <li><router-link to="/">Diplomados Especialidades y Maestrias</router-link></li>
+              <li><router-link to="CursosFormacionContinua">Cursos de Formacion Continua</router-link></li>
+              <li><router-link to="DiplomadoEspecialidadMaestria">Diplomados Especialidades y Maestrias</router-link></li>
             </ul>
           </li>
           <li>
             <span @click="toggleDropdownProgramaIntegra">Programa Integral Psicopedagogia <i class="fas fa-chevron-down"></i></span>
             <ul v-show="isDropdownOpenProgramaIntegra">
-              <li><router-link to="/">Graduados</router-link></li>
+              <li><router-link to="Graduados">Graduados</router-link></li>
             </ul>
           </li>
           <li>
-            <router-link to="/">Red Psicopedagogia</router-link>
+            <router-link to="RedPsico">Red Psicopedagogia</router-link>
           </li>
           <li>
             <span @click="toggleDropdownFormacionAcademica">Formacion Academica PSP <i class="fas fa-chevron-down"></i></span>
             <ul v-show="isDropdownOpenFormacionAcademica">
-              <li><router-link to="/">Plan Docente</router-link></li>
+              <li><router-link to="Docentes">Plan Docente</router-link></li>
               <li><router-link to="/">Interaccion Social <i class="fas fa-chevron-down"></i></router-link>
                 <ul>
-                  <li><router-link to="/">Trabajo Obra Social de la Iglesia</router-link></li>
+                  <li><router-link to="TrabajoObraSocial">Trabajo Obra Social de la Iglesia</router-link></li>
                   <li><router-link to="/">Centro Estudiantil</router-link></li>
                 </ul>
               </li>
@@ -80,7 +80,7 @@
     display: flex;
     justify-content: space-between; /* Centra el contenido horizontalmente */
     align-items: center;
-    padding: 20px 40px; /* Añade relleno en la parte superior e inferior */
+    padding: 50px 40px; /* Añade relleno en la parte superior e inferior */
     background: linear-gradient(#f49e52, #fb7c0a); /* Color de fondo del encabezado */
     color: #ffffff; /* Color del texto */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra */
@@ -91,7 +91,7 @@
   }
   
   .main-navigation {
-    font-size: 16px; /* Tamaño del texto del menú */
+    font-size: 18px; /* Tamaño del texto del menú */
   }
   
   .menu {
