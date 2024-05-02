@@ -1,47 +1,5 @@
 <template >
  
-    <section class="fondo ">
-       
-   <div class="container">
-       <section class=" py-1 text-center">
-   
-   <h2>Directora de Carrera</h2>
-<!-- directora --> 
-</section>
-       <div class="row align-items-center">
-           <div class="col-lg-8">
-               
-               <div class="inner-column">
-                   <div class="sec-title">
-                  
-                       <h3>PhD. Alejandra Martínez Barrientos</h3>
-                       <span class="sub-title">Directora</span>
-                       <div class="text">La carrera de Psicopedagogía, una de las carreras más
-                           jóvenes en nuestra universidad, proyecta sus profesionales a
-                           convertirse en agentes de cambio que, a través de la
-                           educación y de mejorar sus condiciones en cuanto a calidad,
-                           equidad, pertinencia y eficacia, puedan transformar nuestra
-                           sociedad desde las áreas educativa, social, clínica y laboral.</div>
-                   </div>
-
-                   <ul class="list-style-two">
-                       <li><i class="icon fa fa-envelope"></i> amartinez@ucb.edu.bo</li>
-                     
-                   </ul>
-
-                  
-               </div>
-           </div>
-
-           <div class="col-lg-4">
-               <div class="inner-column">
-                   <figure class="image overlay-anim recorteImagen"><img src="/images/resource/about-4.png" alt=""></figure>
-                   
-               </div>
-           </div>
-       </div>
-   </div>
-</section>
 
 
    <section class="team-details">
@@ -50,7 +8,7 @@
                <div class="row">
                    <div class="col-xl-4 col-lg-6">
                        <div class="team-details__top-left">
-                           <div class="team-details__top-img"> <img src="/images/resource/about-4.png" alt="">
+                           <div class="team-details__top-img"> <img src="/images/DOC2.png" alt="">
                                <div class="team-details__big-text"></div>
                            </div>
                        </div>
@@ -58,17 +16,12 @@
                    <div class="col-xl-6 col-lg-6">
                        <div class="team-details__top-right">
                            <div class="team-details__top-content">
-                               <h3 class="team-details__top-name">PhD. Alejandra Martínez Barrientos</h3>
-                               <p class="team-details__top-text-1">Directora de Carrera</p>
-                               <p class="team-details__top-text-3">La carrera de Psicopedagogía, una de las carreras más
-                           jóvenes en nuestra universidad, proyecta sus profesionales a
-                           convertirse en agentes de cambio que, a través de la
-                           educación y de mejorar sus condiciones en cuanto a calidad,
-                           equidad, pertinencia y eficacia, puedan transformar nuestra
-                           sociedad desde las áreas educativa, social, clínica y laboral.</p>
+                               <h3 class="team-details__top-name">Info director de carrera</h3>
+                               <p class="team-details__top-text-1"></p>
+                               <p class="team-details__top-text-3">---------</p>
                            </div>
                            <ul class="list-style-two">
-                       <li><i class="icon fa fa-envelope"></i> amartinez@ucb.edu.bo</li>
+                       <li><i class=""></i> @ucb.edu.bo</li>
                      
                    </ul>
                        </div>
@@ -82,83 +35,81 @@
 
 
   
-<!-- docentes por tipo -->
-
-
 
 
  <section class="event-section ">
        <div class="anim-icons">
-           <span class="icon icon-dotted-map-3"></span>
+           <span class=""></span>
        </div>
        <div class="auto-container">
            <div class="sec-title-outer">
                <div class="row">
                    <div class="col-lg-7">
                        <div class="sec-title">
-                           <span class="sub-title">Conoce tus docentes
+                           <span class="sub-title">
                            </span>
-                           <h2>Docentes <br> tiempo completo</h2>
+                           <h2>Docentes <br> Info de docentes</h2>
                        </div>
                    </div>
                </div>
            </div>
 
            <div class="ContieneTarjetas">
-               <!-- Event Block -->
+            <!--Docentes-->
+               <!-- Event Block 1-->
                <div class="event-block col-lg-1 " >
                    <div class="inner-box1">
                        <div class="content-box1">
                            <div class=" col-lg-6">
-                               <figure class="imagenDocente "><img class="imagenDocente" src="/images/resource/Karina.png" alt=""></figure>
+                               <figure class=" "><img class="imagenDocente" src="/images/DOC2.png" alt=""></figure>
                            </div>
                            <div class="col-lg-">
                            <h5 class="title " >
-                               <h4>MSc. Karina García Riveros</h4>
+                               <h4>Nombre de/la docente</h4>
                            </h5>
-                           <span>Docente tiempo completo</span>
+                           <span>Info de/la docente</span>
                            <ul class="list-style-two">
-                       <li><i class="icon fa fa-envelope"></i> amartinez@ucb.edu.bo</li>
+                       <li><i class=""></i> @ucb.edu.bo</li>
                      
                    </ul>
                </div>
                        </div>
                    </div>
                </div>
-               <!-- Event Block -->
+               <!-- Event Block 2-->
                <div class="event-block col-lg-4">
                    <div class="inner-box1">
                        <div class="content-box1">
                            <div class=" col-lg-6">
-                               <figure class="imagenDocente "><img class="imagenDocente" src="/images/resource/Karina.png" alt=""></figure>
+                               <figure class=""><img class="imagenDocente" src="/images/DOC2.png" alt=""></figure>
                            </div>
                            <div class="col-lg-">
                            <h5 class="title " >
-                               <h4>MSc. Karina García Riveros</h4>
+                               <h4>Nombre</h4>
                            </h5>
-                           <span>Docente tiempo completo</span>
+                           <span>Info</span>
                            <ul class="list-style-two">
-                       <li><i class="icon fa fa-envelope"></i> amartinez@ucb.edu.bo</li>
+                       <li><i class=""></i> @ucb.edu.bo</li>
                      
                    </ul>
                </div>
                        </div>
                    </div>
                </div>
-<!-- Event Block -->
+<!-- Event Block 3-->
 <div class="event-block col-lg-1 " >
                    <div class="inner-box1">
                        <div class="content-box1">
                            <div class=" col-lg-6">
-                               <figure class="imagenDocente "><img class="imagenDocente" src="/images/resource/Karina.png" alt=""></figure>
+                               <figure class=" "><img class="imagenDocente" src="/images/DOC2.png" alt=""></figure>
                            </div>
                            <div class="col-lg-">
                            <h5 class="title " >
-                               <h4>MSc. Karina García Riveros</h4>
+                               <h4>Nombre</h4>
                            </h5>
-                           <span>Docente tiempo completo</span>
+                           <span>Info</span>
                            <ul class="list-style-two">
-                       <li><i class="icon fa fa-envelope"></i> amartinez@ucb.edu.bo</li>
+                       <li><i class="icon fa fa-envelope"></i>@ucb.edu.bo</li>
                      
                    </ul>
                </div>
@@ -167,59 +118,9 @@
                </div>
 
 
-               <!-- Event Block -->
-               <div class="event-block col-lg-1 " >
-                   <div class="inner-box1">
-                       <div class="content-box1">
-                           <div class=" col-lg-6">
-                               <figure class="imagenDocente "><img class="imagenDocente" src="/images/resource/Karina.png" alt=""></figure>
-                           </div>
-                           <div class="col-lg-">
-                           <h5 class="title " >
-                               <h4>MSc. Karina García Riveros</h4>
-                           </h5>
-                           <span>Docente tiempo completo</span>
-                           <ul class="list-style-two">
-                       <li><i class="icon fa fa-envelope"></i> amartinez@ucb.edu.bo</li>
-                     
-                   </ul>
-               </div>
-                       </div>
-                   </div>
-               </div>
 
-              
-                <!-- Event Block -->
-                <div class="event-block col-lg-1 " >
-                   <div class="inner-box1">
-                       <div class="content-box1">
-                           <div class=" col-lg-6">
-                               <figure class="imagenDocente "><img class="imagenDocente" src="/images/resource/Karina.png" alt=""></figure>
-                           </div>
-                           <div class="col-lg-">
-                           <h5 class="title " >
-                               <h4>MSc. Karina García Riveros</h4>
-                           </h5>
-                           <span>Docente tiempo completo</span>
-                           <ul class="list-style-two">
-                       <li><i class="icon fa fa-envelope"></i> amartinez@ucb.edu.bo</li>
-                     
-                   </ul>
-               </div>
-                       </div>
-                   </div>
-               </div>
            </div>
-           <div class="sec-title-outer">
-               <div class="row">
-                   <div class="col-lg-7">
-                       <div class="sec-title">
-                         
-                           <h2>Docentes <br> tiempo medio</h2>
-                       </div>
-                   </div>
-               </div>
-           </div>
+
 
       
 
@@ -326,7 +227,7 @@
        margin-left: 2rem;
    }
 .event-block{
-   background-color: aquamarine;
+   background-color: #063971;
  
    padding: 2rem;
    width: 25rem;

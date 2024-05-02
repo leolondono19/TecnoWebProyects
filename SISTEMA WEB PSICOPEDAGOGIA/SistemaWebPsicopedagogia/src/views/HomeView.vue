@@ -60,7 +60,7 @@
     </div>
   </template>
   
-  <script>
+  <script>z
   export default {
     // Agrega lógica si es necesario
   }

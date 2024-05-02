@@ -8,15 +8,22 @@
       <p>El egresado de la Maestría en Psicopedagogía será un profesional con una visión integral de la psicopedagogía, capaz de diseñar, implementar y evaluar programas educativos que respondan a las necesidades individuales y colectivas de los estudiantes en diferentes niveles educativos.</p>
       <h3>Plan de estudios</h3>
       <p>El plan de estudios de la Maestría en Psicopedagogía se compone de los siguientes módulos:</p>
-      <ul>
-        <li>Módulo I: Fundamentos de la psicopedagogía</li>
-        <li>Módulo II: Procesos de aprendizaje y desarrollo</li>
-        <li>Módulo III: Evaluación y diagnóstico psicopedagógico</li>
-        <li>Módulo IV: Diseño y evaluación de programas educativos</li>
-        <li>Módulo V: Investigación en psicopedagogía</li>
-        <li>Módulo VI: Ejercicio de investigación I</li>
-        <li>Módulo VII: Ejercicio de investigación II</li>
-      </ul>
+
+      <div class="box">
+  <div>
+    <ul style="text-align: left;">
+      <li>Módulo I: Fundamentos de la psicopedagogía</li>
+      <li>Módulo II: Procesos de aprendizaje y desarrollo</li>
+      <li>Módulo III: Evaluación y diagnóstico psicopedagógico</li>
+      <li>Módulo IV: Diseño y evaluación de programas educativos</li>
+      <li>Módulo V: Investigación en psicopedagogía</li>
+      <li>Módulo VI: Ejercicio de investigación I</li>
+      <li>Módulo VII: Ejercicio de investigación II</li>
+    </ul>
+  </div>
+</div>
+<div> <br> </div>
+
     </div>
   </template>
   
@@ -44,9 +51,19 @@
   }
   
   ul {
+    color: #ffff;
     list-style-type: none;
-    padding: 0;
-    margin: 0;
+    padding: 1;
+    margin: 1;
+  }
+  .box {
+    background-color: #fb7c0a;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    width: fit-content;
+    margin: 0 auto;
   }
   
   li {

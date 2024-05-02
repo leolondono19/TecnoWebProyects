@@ -25,7 +25,7 @@
                    <div class="inner-box1">
                        <div class="content-box1">
                            <div class=" col-lg-6">
-                               <figure class=""><img class="imagenDocente" src="/images/GR2.png" alt=""></figure>
+                               <figure class=""><img class="imagenDocente" src="/images/DOC2.png" alt=""></figure>
                            </div>
                            <div class="col-lg-">
                            <h5 class="title " >
@@ -59,7 +59,7 @@
                    <div class="inner-box1">
                        <div class="content-box1">
                            <div class=" col-lg-6">
-                               <figure class=""><img class="imagenDocente" src="/images/GR2.png" alt=""></figure>
+                               <figure class=""><img class="imagenDocente" src="/images/DOC2.png" alt=""></figure>
                            </div>
                            <div class="col-lg-">
                             <h5 class="title " >
@@ -93,7 +93,7 @@
                    <div class="inner-box1">
                        <div class="content-box1">
                            <div class=" col-lg-6">
-                               <figure class=""><img class="imagenDocente" src="/images/GR2.png" alt=""></figure>
+                               <figure class=""><img class="imagenDocente" src="/images/DOC2.png" alt=""></figure>
                            </div>
                            <div class="col-lg-">
                             <h5 class="title " >
@@ -129,7 +129,7 @@
                    <div class="inner-box1">
                        <div class="content-box1">
                            <div class=" col-lg-6">
-                               <figure class=" "><img class="imagenDocente" src="/images/GR2.png" alt=""></figure>
+                               <figure class=" "><img class="imagenDocente" src="/images/DOC2.png" alt=""></figure>
                            </div>
                            <div class="col-lg-">
                             <h5 class="title " >
@@ -165,7 +165,7 @@
                    <div class="inner-box1">
                        <div class="content-box1">
                            <div class=" col-lg-6">
-                               <figure class=""><img class="imagenDocente" src="/images/GR2.png" alt=""></figure>
+                               <figure class=""><img class="imagenDocente" src="/images/DOC2.png" alt=""></figure>
                            </div>
                            <div class="col-lg-">
                             <h5 class="title " >
@@ -199,7 +199,7 @@
                    <div class="inner-box1">
                        <div class="content-box1">
                            <div class=" col-lg-6">
-                               <figure class=" "><img class="imagenDocente" src="/images/GR2.png" alt=""></figure>
+                               <figure class=" "><img class="imagenDocente" src="/images/DOC2.png" alt=""></figure>
                            </div>
                            <div class="col-lg-">
                             <h5 class="title " >
@@ -233,7 +233,7 @@
                    <div class="inner-box1">
                        <div class="content-box1">
                            <div class=" col-lg-6">
-                               <figure class=""><img class="imagenDocente" src="/images/GR2.png" alt=""></figure>
+                               <figure class=""><img class="imagenDocente" src="/images/DOC2.png" alt=""></figure>
                            </div>
                            <div class="col-lg-">
                             <h5 class="title " >
@@ -267,7 +267,7 @@
                    <div class="inner-box1">
                        <div class="content-box1">
                            <div class=" col-lg-6">
-                               <figure class=""><img class="imagenDocente" src="/images/GR2.png" alt=""></figure>
+                               <figure class=""><img class="imagenDocente" src="/images/DOC2.png" alt=""></figure>
                            </div>
                            <div class="col-lg-">
                             <h5 class="title " >
@@ -301,7 +301,7 @@
                    <div class="inner-box1">
                        <div class="content-box1">
                            <div class=" col-lg-6">
-                               <figure class=" "><img class="imagenDocente" src="/images/GR2.png" alt=""></figure>
+                               <figure class=" "><img class="imagenDocente" src="/images/DOC2.png" alt=""></figure>
                            </div>
                            <div class="col-lg-">
                             <h5 class="title " >
@@ -492,5 +492,4 @@
   
   }
 }
-
- </style>
+</style>

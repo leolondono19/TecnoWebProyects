@@ -52,7 +52,7 @@ License: copyright commercial
   --theme-color4: #000000;
   --theme-color5: #ef5c72;
   --theme-color6: #ffffff;
-  --theme-color7: #00ff08;
+  --theme-color7: #fb7c0a;
   --bg-theme-color1: var(--theme-color1);
   --bg-theme-color2: var(--theme-color2);
   --bg-theme-color3: var(--theme-color3);
@@ -172,7 +172,7 @@ body {
 }
 
 p, .text {
-  color: #ffffff;
+  color: #000000;
   font-size: var(--body-font-size);
   font-family: var(--text-font);
   font-weight: var(--body-font-weight);
@@ -3298,7 +3298,7 @@ Section Title
   position: relative;
   top: -10px;
   font-size: var(--sec-title-subtitle-font-size);
-  color: var(--sec-title-subtitle-color);
+  color: #063971;
   line-height: var(--sec-title-subtitle-line-height);
   font-weight: var(--sec-title-subtitle-font-weight);
   font-family: var(--sec-title-subtitle-font-family);
