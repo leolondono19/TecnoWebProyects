@@ -1,8 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
-import basesita from '../views/BasesParaDesarrollar.vue/basesita.vue'
-import basesita2 from '../views/BasesParaDesarrollar.vue/basesita2.vue'
-import basesita3 from '../views/BasesParaDesarrollar.vue/basesita3.vue'
 import Login from '../views/Login.vue'
 
     //Vista estudiantes
@@ -22,24 +19,9 @@ const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
-      path: '/home',
-      name: 'home',
+      path: '/HomeView',
+      name: 'HomeView',
       component: HomeView
-    },
-    {
-      path: '/basesita',
-      name: 'basesita',
-      component: basesita
-    },
-    {
-      path: '/basesita2',
-      name: 'basesita2',
-      component: basesita2
-    },
-    {
-      path: '/basesita3',
-      name: 'basesita3',
-      component: basesita3
     },
     {
       path: '/Login',
