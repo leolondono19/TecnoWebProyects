@@ -15,11 +15,7 @@
 
              <!-- OBRA SOCIAL 1 --> 
              <section class="features-section-two pt-0">
-       <div class="anim-icons">
-           <span class="icon icon-shape-1 zoom-one"></span>
-           <span class="icon icon-shape-2 zoom-one"></span>
-           <span class="icon icon-e zoom-one"></span>
-       </div>
+
        <div class="auto-container">
            <div class="sec-title text-center">
            
@@ -68,11 +64,7 @@ Ser Iglesia servidora, que “lava los pies” de los más pobres actualizando a
              <!-- OBRA SOCIAL 2--> 
 
 <section class="features-section-two pt-0">
-       <div class="anim-icons">
-           <span class="icon icon-shape-1 zoom-one"></span>
-           <span class="icon icon-shape-2 zoom-one"></span>
-           <span class="icon icon-e zoom-one"></span>
-       </div>
+
        <div class="auto-container">
            <div class="sec-title text-center">
            
@@ -115,11 +107,7 @@ Ser Iglesia servidora, que “lava los pies” de los más pobres actualizando a
 
              <!-- OBRA SOCIAL 3--> 
    <section class="features-section-two pt-0">
-       <div class="anim-icons">
-           <span class="icon icon-shape-1 zoom-one"></span>
-           <span class="icon icon-shape-2 zoom-one"></span>
-           <span class="icon icon-e zoom-one"></span>
-       </div>
+
        <div class="auto-container">
            <div class="sec-title text-center">
            
@@ -162,11 +150,7 @@ Ser Iglesia servidora, que “lava los pies” de los más pobres actualizando a
 
              <!-- OBRA SOCIAL 4--> 
              <section class="features-section-two pt-0">
-       <div class="anim-icons">
-           <span class="icon icon-shape-1 zoom-one"></span>
-           <span class="icon icon-shape-2 zoom-one"></span>
-           <span class="icon icon-e zoom-one"></span>
-       </div>
+
        <div class="auto-container">
            <div class="sec-title text-center">
            
@@ -208,11 +192,7 @@ Ser Iglesia servidora, que “lava los pies” de los más pobres actualizando a
    </section>
                 <!-- OBRA SOCIAL 5--> 
                 <section class="features-section-two pt-0">
-       <div class="anim-icons">
-           <span class="icon icon-shape-1 zoom-one"></span>
-           <span class="icon icon-shape-2 zoom-one"></span>
-           <span class="icon icon-e zoom-one"></span>
-       </div>
+
        <div class="auto-container">
            <div class="sec-title text-center">
            
@@ -254,11 +234,7 @@ Ser Iglesia servidora, que “lava los pies” de los más pobres actualizando a
    </section>
                 <!-- OBRA SOCIAL 6--> 
                 <section class="features-section-two pt-0">
-       <div class="anim-icons">
-           <span class="icon icon-shape-1 zoom-one"></span>
-           <span class="icon icon-shape-2 zoom-one"></span>
-           <span class="icon icon-e zoom-one"></span>
-       </div>
+
        <div class="auto-container">
            <div class="sec-title text-center">
            
@@ -300,11 +276,7 @@ Ser Iglesia servidora, que “lava los pies” de los más pobres actualizando a
    </section>
                 <!-- OBRA SOCIAL 7--> 
                 <section class="features-section-two pt-0">
-       <div class="anim-icons">
-           <span class="icon icon-shape-1 zoom-one"></span>
-           <span class="icon icon-shape-2 zoom-one"></span>
-           <span class="icon icon-e zoom-one"></span>
-       </div>
+
        <div class="auto-container">
            <div class="sec-title text-center">
            
@@ -346,11 +318,6 @@ Ser Iglesia servidora, que “lava los pies” de los más pobres actualizando a
    </section>
                 <!-- OBRA SOCIAL 8--> 
                 <section class="features-section-two pt-0">
-       <div class="anim-icons">
-           <span class="icon icon-shape-1 zoom-one"></span>
-           <span class="icon icon-shape-2 zoom-one"></span>
-           <span class="icon icon-e zoom-one"></span>
-       </div>
        <div class="auto-container">
            <div class="sec-title text-center">
            
@@ -393,11 +360,7 @@ El Centro Waliña generalmente tiene como objetivo proporcionar servicios de ate
    </section>
                 <!-- OBRA SOCIAL 9--> 
                 <section class="features-section-two pt-0">
-       <div class="anim-icons">
-           <span class="icon icon-shape-1 zoom-one"></span>
-           <span class="icon icon-shape-2 zoom-one"></span>
-           <span class="icon icon-e zoom-one"></span>
-       </div>
+
        <div class="auto-container">
            <div class="sec-title text-center">
            

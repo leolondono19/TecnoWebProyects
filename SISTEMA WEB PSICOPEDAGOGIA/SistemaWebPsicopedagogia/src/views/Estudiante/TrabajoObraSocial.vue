@@ -13,31 +13,24 @@
 
    </section>
 
-         <!-- Trabajo OBRA SOCIAL --> 
+         <!-- Trabajo OBRA SOCIAL 1 --> 
  <section class="about-section-three pt-0">
    <div class="auto-container">
        <div class="row">
-           <div class="content-column col-lg-6 col-md-12 order-2 wow fadeInRight" data-wow-delay="600ms">
+           <div class="" data-wow-delay="600ms">
                <div class="inner-column">
-                   <div class="anim-icons">
-                       <span class="icon icon-dots-5 bounce-x"></span>
-                       <span class="icon icon-dots-3 bounce-y"></span>
-                       <span class="icon icon-star-2 spin-one"></span>
-                   </div>
+
 
                    <div class="sec-title">
-                       <span class="sub-title">Obra social de la iglesia</span>
-                       <h2>Obra realizada # 1</h2>
+                       <h2>Primera obra</h2>
                        <br>
                        <h4>Accion Educativa</h4>
-                       <div class="text">Lorem ipsum dolor sit amet consectur adipiscing elit sed eiusmod
-                           tempor incididunt labore dolore magna aliquaenim ad minim. Sed risus augue, commodo
-                           ornare felis non, eleifend molestie metus pharetra eleifend.</div>
+                       <div class="text">En un lugar de la Mancha, de cuyo nombre no quiero acordarme, no ha mucho tiempo que vivía un hidalgo de los de lanza en astillero, adarga antigua, rocín flaco y galgo corredor. Una olla de algo más vaca que carnero, salpicón las más noches, duelos y quebrantos los sábados, lentejas los viernes, algún palomino de añadidura los domingos, consumían las tres partes de su hacienda. El resto della concluían sayo de velarte, calzas de velludo para las fiestas con sus pantuflos de lo mismo, los días de entre semana se honraba con su vellorí de lo más fino. Tenía en su casa una ama que pasaba de los cuarenta, y una sobrina que no llegaba a los veinte, y un mozo de campo y plaza, que así ensillaba el rocín como tomaba la podadera. 
+</div>
                            <br>
                            <h4>Incidencia alcanzada</h4>
-                       <div class="text">Lorem ipsum dolor sit amet consectur adipiscing elit sed eiusmod
-                           tempor incididunt labore dolore magna aliquaenim ad minim. Sed risus augue, commodo
-                           ornare felis non, eleifend molestie metus pharetra eleifend.</div>
+                       <div class="text">En un lugar de la Mancha, de cuyo nombre no quiero acordarme, no ha mucho tiempo que vivía un hidalgo de los de lanza en astillero, adarga antigua, rocín flaco y galgo corredor. Una olla de algo más vaca que carnero, salpicón las más noches, duelos y quebrantos los sábados, lentejas los viernes, algún palomino de añadidura los domingos, consumían las tres partes de su hacienda. El resto della concluían sayo de velarte, calzas de velludo para las fiestas con sus pantuflos de lo mismo, los días de entre semana se honraba con su vellorí de lo más fino. Tenía en su casa una ama que pasaba de los cuarenta, y una sobrina que no llegaba a los veinte, y un mozo de campo y plaza, que así ensillaba el rocín como tomaba la podadera. 
+</div>
                    </div>
 
                    
@@ -48,51 +41,32 @@
 
            <!-- Image Column -->
            <div class="image-column col-lg-6 col-md-12">
-               <div class="inner-column wow fadeInLeft">
-                   <div class="anim-icons">
-                       <span class="icon icon-star-1 spin-one"></span>
-                       <span class="icon icon-dots-4 bounce-x"></span>
-                       <span class="icon icon-wave"></span>
-                       <span class="icon icon-idea bounce-y" style="width: 5rem;"></span>
-                   </div>
-                   <figure class="image overlay-anim wow fadeInUp"><img src="/images/resource/about-1.png" alt="">
+                   <figure class=""><img src="/images/DOC2.png" alt="">
                    </figure>
-                   <div class="author-info bounce-x">
-                       <h3 class="name">Gestion</h3>
-                       <span class="designation">II- 2022</span>
-                   </div>
-               </div>
            </div>
        </div>
    </div>
 </section>
 
 
-     <!-- OBRA SOCIAL --> 
+     <!-- OBRA SOCIAL 2 --> 
 <section class="about-section-three pt-0">
    <div class="auto-container">
        <div class="row">
-           <div class="content-column col-lg-6 col-md-12 order-2 wow fadeInRight" data-wow-delay="600ms">
+           <div class="" data-wow-delay="600ms">
                <div class="inner-column">
-                   <div class="anim-icons">
-                       <span class="icon icon-dots-5 bounce-x"></span>
-                       <span class="icon icon-dots-3 bounce-y"></span>
-                       <span class="icon icon-star-2 spin-one"></span>
-                   </div>
+
 
                    <div class="sec-title">
-                       <span class="sub-title">Obra social de la iglesia</span>
-                       <h2>Obra realizada # 2</h2>
+                       <h2>Segunda obra</h2>
                        <br>
                        <h4>Accion Educativa</h4>
-                       <div class="text">Lorem ipsum dolor sit amet consectur adipiscing elit sed eiusmod
-                           tempor incididunt labore dolore magna aliquaenim ad minim. Sed risus augue, commodo
-                           ornare felis non, eleifend molestie metus pharetra eleifend.</div>
+                       <div class="text">En un lugar de la Mancha, de cuyo nombre no quiero acordarme, no ha mucho tiempo que vivía un hidalgo de los de lanza en astillero, adarga antigua, rocín flaco y galgo corredor. Una olla de algo más vaca que carnero, salpicón las más noches, duelos y quebrantos los sábados, lentejas los viernes, algún palomino de añadidura los domingos, consumían las tres partes de su hacienda. El resto della concluían sayo de velarte, calzas de velludo para las fiestas con sus pantuflos de lo mismo, los días de entre semana se honraba con su vellorí de lo más fino. Tenía en su casa una ama que pasaba de los cuarenta, y una sobrina que no llegaba a los veinte, y un mozo de campo y plaza, que así ensillaba el rocín como tomaba la podadera. 
+</div>
                            <br>
                            <h4>Incidencia alcanzada</h4>
-                       <div class="text">Lorem ipsum dolor sit amet consectur adipiscing elit sed eiusmod
-                           tempor incididunt labore dolore magna aliquaenim ad minim. Sed risus augue, commodo
-                           ornare felis non, eleifend molestie metus pharetra eleifend.</div>
+                       <div class="text">En un lugar de la Mancha, de cuyo nombre no quiero acordarme, no ha mucho tiempo que vivía un hidalgo de los de lanza en astillero, adarga antigua, rocín flaco y galgo corredor. Una olla de algo más vaca que carnero, salpicón las más noches, duelos y quebrantos los sábados, lentejas los viernes, algún palomino de añadidura los domingos, consumían las tres partes de su hacienda. El resto della concluían sayo de velarte, calzas de velludo para las fiestas con sus pantuflos de lo mismo, los días de entre semana se honraba con su vellorí de lo más fino. Tenía en su casa una ama que pasaba de los cuarenta, y una sobrina que no llegaba a los veinte, y un mozo de campo y plaza, que así ensillaba el rocín como tomaba la podadera. 
+.</div>
                    </div>
 
                    
@@ -103,19 +77,10 @@
 
            <!-- Image Column -->
            <div class="image-column col-lg-6 col-md-12">
-               <div class="inner-column wow fadeInLeft">
-                   <div class="anim-icons">
-                       <span class="icon icon-star-1 spin-one"></span>
-                       <span class="icon icon-dots-4 bounce-x"></span>
-                       <span class="icon icon-wave"></span>
-                       <span class="icon icon-idea bounce-y" style="width: 5rem;"></span>
-                   </div>
-                   <figure class="image overlay-anim wow fadeInUp"><img src="/images/resource/course-s1.jpg" alt="">
+               <div class="">
+
+                   <figure class=""><img src="/images/DOC2.png" alt="">
                    </figure>
-                   <div class="author-info bounce-x">
-                       <h3 class="name">Gestion</h3>
-                       <span class="designation">II- 2022</span>
-                   </div>
                </div>
            </div>
        </div>
@@ -128,4 +93,5 @@
 <style>
 .image .overlay-anim .wow .fadeInUp{
 width: 10rem;
-}</style>
+}
+</style>
