@@ -8,7 +8,7 @@ import Login from '../views/Login.vue'
     //Vista estudiantes
 import Docentes from '../views/Estudiante/Docentes.vue'
 import TrabajoObraSocial from '../views/Estudiante/TrabajoObraSocial.vue'
-import ObraSocial from '../views/Estudiante/ObraSocial.vue'
+import RedPsico from '../views/Estudiante/RedPsico.vue'
 import CursosFormacionContinua from '../views/Estudiante/CursosFormacionContinua.vue'
 import Postgrado from '../views/Estudiante/Postgrado.vue'
 
@@ -60,9 +60,9 @@ const router = createRouter({
       component: TrabajoObraSocial
     },
     {
-      path: '/ObraSocial',
-      name: 'ObraSocial',
-      component: ObraSocial
+      path: '/RedPsico',
+      name: 'RedPsico',
+      component: RedPsico
     },
     {
       path: '/CursosFormacionContinua',
