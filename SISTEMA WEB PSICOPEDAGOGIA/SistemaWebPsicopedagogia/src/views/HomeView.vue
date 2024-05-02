@@ -5,7 +5,7 @@
         <div class="container">
           <div class="row align-items-center">
             <div class="col-lg-6">
-              <div class="quienes-somos-text">
+              <div class="quienes-somos-text box">
                 <h2>¿Quiénes Somos?</h2>
                 <p>Una familia de profesionales y estudiantes que, desde la psicopedagogía, contribuyen a la transformación social a través de la educación y propuestas críticas, estratégicas y científicas, con un enfoque de enseñanza – aprendizaje en diferentes niveles, ámbitos, sistemas, instituciones, organismos gubernamentales y no gubernamentales, para la construcción de una sociedad digna, justa, equitativa en Bolivia y el mundo.</p>
               </div>
@@ -24,19 +24,15 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-6">
-              <div class="mision-text">
-                <div class="box">
-                  <h3>Misión</h3>
-                  <p>Nuestra misión es...</p>
-                </div>
+              <div class="mision-text box">
+                <h3>Misión</h3>
+                <p>Nuestra misión es...</p>
               </div>
             </div>
             <div class="col-lg-6">
-              <div class="vision-text">
-                <div class="box">
-                  <h3>Visión</h3>
-                  <p>Nuestra visión es...</p>
-                </div>
+              <div class="vision-text box">
+                <h3>Visión</h3>
+                <p>Nuestra visión es...</p>
               </div>
             </div>
           </div>
@@ -48,7 +44,7 @@
         <div class="container">
           <div class="row align-items-center">
             <div class="col-lg-6">
-              <div class="perfil-estudiante-text">
+              <div class="perfil-estudiante-text box">
                 <h2>Perfil del Estudiante</h2>
                 <p>A lo largo de los años de trayectoria de la carrera se va evidenciando y ratificando continuamente que nuestros estudiantes presentan una amplia vocación de servicio, comprometidos fehacientemente con la idea de brindar desde su profesión la oportunidad de mejorar la calidad de vida de las personas y garantizar el uso de la educación como herramienta de transformación social.</p>
               </div>
@@ -101,17 +97,6 @@
     color: #333;
   }
   
-  .box {
-    background-color: #f9f9f9;
-    padding: 20px;
-    border-radius: 10px;
-    margin-bottom: 20px;
-  }
-  
-  .box h3 {
-    margin-bottom: 10px;
-  }
-  
   .perfil-estudiante-section {
     padding: 80px 0;
   }
@@ -129,6 +114,19 @@
   .perfil-estudiante-image img {
     max-width: 100%;
     height: auto;
+  }
+  
+  .box {
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo más oscuro */
+    padding: 20px;
+    border-radius: 15px; /* Bordes redondeados */
+    margin-bottom: 30px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Sombra */
+  }
+  
+  .box h2,
+  .box h3 {
+    margin-bottom: 15px;
   }
   </style>
   
