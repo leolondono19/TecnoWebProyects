@@ -1,0 +1,24 @@
+.estrella{
+    font-size: 40px;
+}
+
+.productos-card{
+    width: 230px;
+    padding: 15px;
+    margin: auto;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+    background-color: rgba(0, 0, 0,);
+}
+
+.col-2{
+    margin: auto;
+}
+
+del{
+    color: red;
+}
+
+.precio-oferta{
+    color: green;
+}
