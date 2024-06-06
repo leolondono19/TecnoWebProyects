@@ -12,4 +12,8 @@ export class ContactoComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  onSubmit(): void {
+    alert('Form submitted!');
+  }
 }
+
